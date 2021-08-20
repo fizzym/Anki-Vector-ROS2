@@ -1,9 +1,9 @@
 # Anki-Vector-ROS2
 
-Anki Vector Driver/Interface for ROS2
+Ros2 provides a great developement plateform for creating a controller for the Anki Vector robots.
 
-Built by the Engineering Physics department of the University of British Columbia.
+This repository includes a rough version of a Ros2 driver for the Vector robot, as well as information about what functionality should be included when creating a better version of the driver.
 
-Specifically for the course ENPH353
+The wiki section covers information learned about the Anki Vector SDK, Ros2, OSKR, and the Vector Driver.
 
-It is a tool to be used to communicate with the anki vector robot through it's python sdk via a ROS2 network.
+Usefull CAD models for demos are also included and discussed.
