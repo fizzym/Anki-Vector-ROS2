@@ -1,0 +1,6 @@
+# This service is used to establish a connection to a vector robot
+
+string serial  # the serial number of the vector bot you wish to connect
+---
+bool success   # True returned if connection succesful, False if failed
+string message # informational message for errors etc...
