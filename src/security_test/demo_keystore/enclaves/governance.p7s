@@ -1,0 +1,59 @@
+MIME-Version: 1.0
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature"; micalg="sha-256"; boundary="----B761656C57047A94F976961F135E9985"
+
+This is an S/MIME signed message
+
+------B761656C57047A94F976961F135E9985
+Content-Type: text/plain
+
+<dds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.omg.org/spec/DDS-SECURITY/20170901/omg_shared_ca_governance.xsd">
+    <domain_access_rules>
+        <domain_rule>
+            <domains>
+              <id>0</id>
+            </domains>
+            <allow_unauthenticated_participants>false</allow_unauthenticated_participants>
+            <enable_join_access_control>true</enable_join_access_control>
+            <discovery_protection_kind>ENCRYPT</discovery_protection_kind>
+            <liveliness_protection_kind>ENCRYPT</liveliness_protection_kind>
+            <rtps_protection_kind>SIGN</rtps_protection_kind>
+            <topic_access_rules>
+                <topic_rule>
+                    <topic_expression>*</topic_expression>
+                    <enable_discovery_protection>true</enable_discovery_protection>
+                    <enable_liveliness_protection>true</enable_liveliness_protection>
+                    <enable_read_access_control>true</enable_read_access_control>
+                    <enable_write_access_control>true</enable_write_access_control>
+                    <metadata_protection_kind>ENCRYPT</metadata_protection_kind>
+                    <data_protection_kind>ENCRYPT</data_protection_kind>
+                </topic_rule>
+            </topic_access_rules>
+        </domain_rule>
+    </domain_access_rules>
+</dds>
+
+------B761656C57047A94F976961F135E9985
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+MIIDBQYJKoZIhvcNAQcCoIIC9jCCAvICAQExDzANBglghkgBZQMEAgEFADALBgkq
+hkiG9w0BBwGgggFIMIIBRDCB6qADAgECAhQiCT0JVDOYmCCP8derarteZxofETAK
+BggqhkjOPQQDAjAWMRQwEgYDVQQDDAtzcm9zMnRlc3RDQTAeFw0yMTA1MzAyMDM0
+NTNaFw0zMTA1MjkyMDM0NTNaMBYxFDASBgNVBAMMC3Nyb3MydGVzdENBMFkwEwYH
+KoZIzj0CAQYIKoZIzj0DAQcDQgAEJ2P96buz2GdXSJkQ9GOK2GiBuBdckJBAxZsk
+PAzgl2n0YmdYKX6uJd5TD80TRYBlhJAKQ1pleQkeg6zkIxE6E6MWMBQwEgYDVR0T
+AQH/BAgwBgEB/wIBATAKBggqhkjOPQQDAgNJADBGAiEAmiZNsrCIjWFfK0uj0qT5
+jMsn8KIaTehncSZPcNIggGcCIQDOIlBmxYOxaxYCIKrWK0uvpdumgNExfvlofond
+v16b8jGCAYEwggF9AgEBMC4wFjEUMBIGA1UEAwwLc3JvczJ0ZXN0Q0ECFCIJPQlU
+M5iYII/x16tqu15nGh8RMA0GCWCGSAFlAwQCAQUAoIHkMBgGCSqGSIb3DQEJAzEL
+BgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIxMDUzMTIwMzQ1M1owLwYJKoZI
+hvcNAQkEMSIEIE5xbOoVCiYGQXDWxmE0xABZL5D8kRnSwh5MHHqVAwESMHkGCSqG
+SIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQME
+AQIwCgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcG
+BSsOAwIHMA0GCCqGSIb3DQMCAgEoMAoGCCqGSM49BAMCBEYwRAIgAnOUH0kOlh6s
+v9nXOQ6f/RA4qS8ryVt474UoOf3Z/ZYCIBTRTvEW4IGMpbatjTCW8VNkE7D30wkG
+AxE71Ie0dSUg
+
+------B761656C57047A94F976961F135E9985--
+

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vector/srv/VectorConnect.srv
+// generated code does not contain a copyright notice
+
+
+module vector {
+  module srv {
+    @verbatim (language="comment", text=
+      " This service is used to establish a connection to a vector robot")
+    struct VectorConnect_Request {
+      @verbatim (language="comment", text=
+        " the serial number of the vector bot you wish to connect")
+      string serial;
+    };
+    struct VectorConnect_Response {
+      @verbatim (language="comment", text=
+        " True returned if connection succesful, False if failed")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " informational message for errors etc...")
+      string message;
+    };
+  };
+};

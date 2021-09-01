@@ -1,0 +1,2 @@
+Invoking command in '/home/fizzer/ros2_ws/build/security_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fizzer/ros2_ws/src/security_test -DCMAKE_INSTALL_PREFIX=/home/fizzer/ros2_ws/install/security_test
+Invoked command in '/home/fizzer/ros2_ws/build/security_test' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fizzer/ros2_ws/src/security_test -DCMAKE_INSTALL_PREFIX=/home/fizzer/ros2_ws/install/security_test

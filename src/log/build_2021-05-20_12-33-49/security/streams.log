@@ -1,0 +1,43 @@
+[0.335s] Invoking command in '/home/fizzer/ros2_ws/src/security': PYTHONPATH=/home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/security build --build-base /home/fizzer/ros2_ws/src/build/security/build install --prefix /home/fizzer/ros2_ws/src/install/security --record /home/fizzer/ros2_ws/src/build/security/install.log --single-version-externally-managed
+[0.660s] running egg_info
+[0.661s] creating ../build/security/security.egg-info
+[0.661s] writing ../build/security/security.egg-info/PKG-INFO
+[0.662s] writing dependency_links to ../build/security/security.egg-info/dependency_links.txt
+[0.662s] writing entry points to ../build/security/security.egg-info/entry_points.txt
+[0.662s] writing requirements to ../build/security/security.egg-info/requires.txt
+[0.663s] writing top-level names to ../build/security/security.egg-info/top_level.txt
+[0.664s] writing manifest file '../build/security/security.egg-info/SOURCES.txt'
+[0.708s] reading manifest file '../build/security/security.egg-info/SOURCES.txt'
+[0.709s] writing manifest file '../build/security/security.egg-info/SOURCES.txt'
+[0.710s] running build
+[0.710s] running build_py
+[0.710s] creating /home/fizzer/ros2_ws/src/build/security/build
+[0.710s] creating /home/fizzer/ros2_ws/src/build/security/build/lib
+[0.711s] creating /home/fizzer/ros2_ws/src/build/security/build/lib/security
+[0.711s] copying security/__init__.py -> /home/fizzer/ros2_ws/src/build/security/build/lib/security
+[0.711s] copying security/sub.py -> /home/fizzer/ros2_ws/src/build/security/build/lib/security
+[0.711s] copying security/pub.py -> /home/fizzer/ros2_ws/src/build/security/build/lib/security
+[0.711s] running install
+[0.712s] running install_lib
+[0.714s] creating /home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages/security
+[0.714s] copying /home/fizzer/ros2_ws/src/build/security/build/lib/security/__init__.py -> /home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages/security
+[0.714s] copying /home/fizzer/ros2_ws/src/build/security/build/lib/security/sub.py -> /home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages/security
+[0.715s] copying /home/fizzer/ros2_ws/src/build/security/build/lib/security/pub.py -> /home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages/security
+[0.715s] byte-compiling /home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages/security/__init__.py to __init__.cpython-38.pyc
+[0.717s] byte-compiling /home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages/security/sub.py to sub.cpython-38.pyc
+[0.718s] byte-compiling /home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages/security/pub.py to pub.cpython-38.pyc
+[0.719s] running install_data
+[0.719s] creating /home/fizzer/ros2_ws/src/install/security/share
+[0.720s] creating /home/fizzer/ros2_ws/src/install/security/share/ament_index
+[0.720s] creating /home/fizzer/ros2_ws/src/install/security/share/ament_index/resource_index
+[0.720s] creating /home/fizzer/ros2_ws/src/install/security/share/ament_index/resource_index/packages
+[0.720s] copying resource/security -> /home/fizzer/ros2_ws/src/install/security/share/ament_index/resource_index/packages
+[0.721s] creating /home/fizzer/ros2_ws/src/install/security/share/security
+[0.721s] copying package.xml -> /home/fizzer/ros2_ws/src/install/security/share/security
+[0.721s] running install_egg_info
+[0.723s] Copying ../build/security/security.egg-info to /home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages/security-0.0.0-py3.8.egg-info
+[0.725s] running install_scripts
+[0.757s] Installing pub script to /home/fizzer/ros2_ws/src/install/security/lib/security
+[0.757s] Installing sub script to /home/fizzer/ros2_ws/src/install/security/lib/security
+[0.758s] writing list of installed files to '/home/fizzer/ros2_ws/src/build/security/install.log'
+[0.794s] Invoked command in '/home/fizzer/ros2_ws/src/security' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/security build --build-base /home/fizzer/ros2_ws/src/build/security/build install --prefix /home/fizzer/ros2_ws/src/install/security --record /home/fizzer/ros2_ws/src/build/security/install.log --single-version-externally-managed

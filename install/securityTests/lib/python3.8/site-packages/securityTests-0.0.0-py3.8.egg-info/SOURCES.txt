@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/securityTests/securityTests.egg-info/PKG-INFO
+../../build/securityTests/securityTests.egg-info/SOURCES.txt
+../../build/securityTests/securityTests.egg-info/dependency_links.txt
+../../build/securityTests/securityTests.egg-info/entry_points.txt
+../../build/securityTests/securityTests.egg-info/requires.txt
+../../build/securityTests/securityTests.egg-info/top_level.txt
+../../build/securityTests/securityTests.egg-info/zip-safe
+resource/securityTests
+securityTests/__init__.py
+securityTests/pub.py
+securityTests/sub.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

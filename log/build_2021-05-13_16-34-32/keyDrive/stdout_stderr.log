@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/keyDrive/keyDrive.egg-info
+writing ../../build/keyDrive/keyDrive.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyDrive/keyDrive.egg-info/dependency_links.txt
+writing entry points to ../../build/keyDrive/keyDrive.egg-info/entry_points.txt
+writing requirements to ../../build/keyDrive/keyDrive.egg-info/requires.txt
+writing top-level names to ../../build/keyDrive/keyDrive.egg-info/top_level.txt
+writing manifest file '../../build/keyDrive/keyDrive.egg-info/SOURCES.txt'
+reading manifest file '../../build/keyDrive/keyDrive.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyDrive/keyDrive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fizzer/ros2_ws/build/keyDrive/build
+creating /home/fizzer/ros2_ws/build/keyDrive/build/lib
+creating /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+copying keyDrive/Velocity_Publisher.py -> /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+copying keyDrive/__init__.py -> /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+copying keyDrive/Velocity_Subscribe_Drive.py -> /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+running install
+running install_lib
+creating /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+copying /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive/Velocity_Publisher.py -> /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+copying /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive/__init__.py -> /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+copying /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive/Velocity_Subscribe_Drive.py -> /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+byte-compiling /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive/Velocity_Publisher.py to Velocity_Publisher.cpython-38.pyc
+byte-compiling /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive/Velocity_Subscribe_Drive.py to Velocity_Subscribe_Drive.cpython-38.pyc
+running install_data
+creating /home/fizzer/ros2_ws/install/keyDrive/share/ament_index
+creating /home/fizzer/ros2_ws/install/keyDrive/share/ament_index/resource_index
+creating /home/fizzer/ros2_ws/install/keyDrive/share/ament_index/resource_index/packages
+copying resource/keyDrive -> /home/fizzer/ros2_ws/install/keyDrive/share/ament_index/resource_index/packages
+copying package.xml -> /home/fizzer/ros2_ws/install/keyDrive/share/keyDrive
+running install_egg_info
+Copying ../../build/keyDrive/keyDrive.egg-info to /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive-0.0.0-py3.8.egg-info
+running install_scripts
+Installing node1 script to /home/fizzer/ros2_ws/install/keyDrive/lib/keyDrive
+Installing node2 script to /home/fizzer/ros2_ws/install/keyDrive/lib/keyDrive
+writing list of installed files to '/home/fizzer/ros2_ws/build/keyDrive/install.log'

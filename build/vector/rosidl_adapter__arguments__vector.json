@@ -1,0 +1,7 @@
+{
+  "package_name": "vector",
+  "non_idl_tuples": [
+    "/home/fizzer/ros2_ws/src/vector:srv/VectorConnect.srv",
+    "/home/fizzer/ros2_ws/src/vector:srv/VectorSpeak.srv"
+  ]
+}

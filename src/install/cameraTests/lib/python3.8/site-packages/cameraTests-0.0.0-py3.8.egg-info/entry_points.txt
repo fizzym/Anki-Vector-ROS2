@@ -1,0 +1,6 @@
+[console_scripts]
+cam_pub = cameraTests.publish_camera_feed:main
+cam_pub_2 = cameraTests.publish_camera_feed_2:main
+cam_sub = cameraTests.subscribe_camera_feed:main
+cam_sub_2 = cameraTests.subscribe_camera_feed_2:main
+

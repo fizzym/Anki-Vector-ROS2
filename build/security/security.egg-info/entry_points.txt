@@ -1,0 +1,4 @@
+[console_scripts]
+pub = security.pub:main
+sub = security.sub:main
+

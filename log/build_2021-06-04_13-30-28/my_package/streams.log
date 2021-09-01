@@ -1,0 +1,28 @@
+[0.977s] Invoking command in '/home/fizzer/ros2_ws/src/my_package': PYTHONPATH=/home/fizzer/ros2_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/fizzer/ros2_ws/build/my_package/build install --prefix /home/fizzer/ros2_ws/install/my_package --record /home/fizzer/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[1.496s] running egg_info
+[1.496s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.497s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.497s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.497s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.497s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.576s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.577s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.577s] running build
+[1.577s] running build_py
+[1.578s] running install
+[1.580s] running install_lib
+[1.584s] running install_data
+[1.585s] running install_egg_info
+[1.591s] removing '/home/fizzer/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.591s] Copying ../../build/my_package/my_package.egg-info to /home/fizzer/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[1.591s] running install_scripts
+[1.634s] Installing cli script to /home/fizzer/ros2_ws/install/my_package/lib/my_package
+[1.635s] Installing double_pub script to /home/fizzer/ros2_ws/install/my_package/lib/my_package
+[1.636s] Installing listen script to /home/fizzer/ros2_ws/install/my_package/lib/my_package
+[1.636s] Installing listen2 script to /home/fizzer/ros2_ws/install/my_package/lib/my_package
+[1.638s] Installing my_node script to /home/fizzer/ros2_ws/install/my_package/lib/my_package
+[1.639s] Installing serv script to /home/fizzer/ros2_ws/install/my_package/lib/my_package
+[1.640s] Installing talk script to /home/fizzer/ros2_ws/install/my_package/lib/my_package
+[1.641s] Installing talk2 script to /home/fizzer/ros2_ws/install/my_package/lib/my_package
+[1.643s] writing list of installed files to '/home/fizzer/ros2_ws/build/my_package/install.log'
+[1.703s] Invoked command in '/home/fizzer/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/fizzer/ros2_ws/build/my_package/build install --prefix /home/fizzer/ros2_ws/install/my_package --record /home/fizzer/ros2_ws/build/my_package/install.log --single-version-externally-managed

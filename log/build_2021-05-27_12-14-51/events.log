@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.000343] (-) JobUnselected: {'identifier': 'cameraTests'}
+[0.000415] (-) JobUnselected: {'identifier': 'keyDrive'}
+[0.000458] (-) JobUnselected: {'identifier': 'my_cpp_py_pkg'}
+[0.000489] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000550] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000585] (vector) JobQueued: {'identifier': 'vector', 'dependencies': OrderedDict()}
+[0.000627] (vector) JobStarted: {'identifier': 'vector'}
+[0.016359] (vector) JobProgress: {'identifier': 'vector', 'progress': 'cmake'}
+[0.017276] (vector) JobProgress: {'identifier': 'vector', 'progress': 'build'}
+[0.018516] (vector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fizzer/ros2_ws/build/vector', '--', '-j4', '-l4'], 'cwd': '/home/fizzer/ros2_ws/build/vector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'fizzer'), ('LC_TIME', 'en_CA.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '969'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/fizzer/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/ros2_ws/install/vector/lib:/home/fizzer/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('LXQT_DEFAULT_OPENBOX_CONFIG', '/etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'en_CA.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/fizzer/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('XDG_DATA_HOME', '/home/fizzer/.local/share'), ('XDG_CONFIG_HOME', '/home/fizzer/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-MGlmRBiLfgTU/agent.924'), ('AMENT_PREFIX_PATH', '/home/fizzer/ros2_ws/install/vector:/home/fizzer/ros2_ws/install/tutorial_interfaces:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('XDG_VTNR', '1'), ('PWD', '/home/fizzer/ros2_ws/build/vector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/test_pkg/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/pkg1/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/cameraTests/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fizzer/ros2_ws/install/vector:/home/fizzer/ros2_ws/install/tutorial_interfaces:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy')]), 'shell': False}
+[0.098708] (-) TimerEvent: {}
+[0.199145] (-) TimerEvent: {}
+[0.289706] (vector) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.299249] (-) TimerEvent: {}
+[0.399567] (-) TimerEvent: {}
+[0.412253] (vector) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.412576] (vector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.499711] (-) TimerEvent: {}
+[0.600034] (-) TimerEvent: {}
+[0.700432] (-) TimerEvent: {}
+[0.800777] (-) TimerEvent: {}
+[0.820585] (vector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.900907] (-) TimerEvent: {}
+[1.001255] (-) TimerEvent: {}
+[1.020495] (vector) StdoutLine: {'line': b'-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.044243] (vector) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.101390] (-) TimerEvent: {}
+[1.201754] (-) TimerEvent: {}
+[1.266219] (vector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.285972] (vector) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.301903] (-) TimerEvent: {}
+[1.402263] (-) TimerEvent: {}
+[1.502590] (-) TimerEvent: {}
+[1.602965] (-) TimerEvent: {}
+[1.703307] (-) TimerEvent: {}
+[1.731388] (vector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.803448] (-) TimerEvent: {}
+[1.903768] (-) TimerEvent: {}
+[1.960205] (vector) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.003930] (-) TimerEvent: {}
+[2.071146] (vector) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[2.104057] (-) TimerEvent: {}
+[2.204371] (-) TimerEvent: {}
+[2.304715] (-) TimerEvent: {}
+[2.337832] (vector) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.404822] (-) TimerEvent: {}
+[2.505185] (-) TimerEvent: {}
+[2.508577] (vector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.570822] (vector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.605305] (-) TimerEvent: {}
+[2.621939] (vector) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[2.639046] (vector) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.705494] (-) TimerEvent: {}
+[2.731391] (vector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.731653] (vector) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.731811] (vector) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.805667] (-) TimerEvent: {}
+[2.849384] (vector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.904641] (vector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.905778] (-) TimerEvent: {}
+[2.906906] (vector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.908847] (vector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.913715] (vector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.005951] (-) TimerEvent: {}
+[3.088721] (vector) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.106097] (-) TimerEvent: {}
+[3.206458] (-) TimerEvent: {}
+[3.306810] (-) TimerEvent: {}
+[3.369305] (vector) StdoutLine: {'line': b'-- Generating done\n'}
+[3.373468] (vector) StdoutLine: {'line': b'-- Build files have been written to: /home/fizzer/ros2_ws/build/vector\n'}
+[3.403132] (vector) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.403555] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__cpp\x1b[0m\n'}
+[3.406924] (-) TimerEvent: {}
+[3.430065] (vector) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.507052] (-) TimerEvent: {}
+[3.607467] (-) TimerEvent: {}
+[3.707819] (-) TimerEvent: {}
+[3.808175] (-) TimerEvent: {}
+[3.908605] (-) TimerEvent: {}
+[4.009009] (-) TimerEvent: {}
+[4.063311] (vector) StdoutLine: {'line': b'[  5%] Built target vector__cpp\n'}
+[4.082527] (vector) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.082971] (vector) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.098258] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_generator_c\x1b[0m\n'}
+[4.098697] (vector) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.109113] (-) TimerEvent: {}
+[4.154637] (vector) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/vector__rosidl_generator_c.dir/rosidl_generator_c/vector/srv/detail/vector_connect__functions.c.o\x1b[0m\n'}
+[4.209218] (-) TimerEvent: {}
+[4.309606] (-) TimerEvent: {}
+[4.410152] (-) TimerEvent: {}
+[4.510714] (-) TimerEvent: {}
+[4.611122] (-) TimerEvent: {}
+[4.711608] (-) TimerEvent: {}
+[4.714049] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.794351] (vector) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vector/srv/detail/vector_connect__type_support.cpp.o\x1b[0m\n'}
+[4.811714] (-) TimerEvent: {}
+[4.912017] (-) TimerEvent: {}
+[4.917002] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.970621] (vector) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vector/srv/vector_connect__type_support.cpp.o\x1b[0m\n'}
+[5.012169] (-) TimerEvent: {}
+[5.064583] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.112277] (-) TimerEvent: {}
+[5.129397] (vector) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vector/srv/detail/dds_fastrtps/vector_connect__type_support.cpp.o\x1b[0m\n'}
+[5.212401] (-) TimerEvent: {}
+[5.312748] (-) TimerEvent: {}
+[5.413111] (-) TimerEvent: {}
+[5.513432] (-) TimerEvent: {}
+[5.613812] (-) TimerEvent: {}
+[5.714126] (-) TimerEvent: {}
+[5.814425] (-) TimerEvent: {}
+[5.912233] (vector) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/vector__rosidl_generator_c.dir/rosidl_generator_c/vector/srv/detail/vector_speak__functions.c.o\x1b[0m\n'}
+[5.914543] (-) TimerEvent: {}
+[5.996169] (vector) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library libvector__rosidl_generator_c.so\x1b[0m\n'}
+[6.014666] (-) TimerEvent: {}
+[6.115049] (-) TimerEvent: {}
+[6.215399] (-) TimerEvent: {}
+[6.315721] (-) TimerEvent: {}
+[6.416100] (-) TimerEvent: {}
+[6.516424] (-) TimerEvent: {}
+[6.616808] (-) TimerEvent: {}
+[6.644141] (vector) StdoutLine: {'line': b'[ 28%] Built target vector__rosidl_generator_c\n'}
+[6.655157] (vector) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vector/srv/detail/dds_fastrtps/vector_speak__type_support.cpp.o\x1b[0m\n'}
+[6.716940] (-) TimerEvent: {}
+[6.817285] (-) TimerEvent: {}
+[6.917639] (-) TimerEvent: {}
+[7.017970] (-) TimerEvent: {}
+[7.118260] (-) TimerEvent: {}
+[7.218664] (-) TimerEvent: {}
+[7.319003] (-) TimerEvent: {}
+[7.419305] (-) TimerEvent: {}
+[7.519645] (-) TimerEvent: {}
+[7.619961] (-) TimerEvent: {}
+[7.720333] (-) TimerEvent: {}
+[7.820673] (-) TimerEvent: {}
+[7.921007] (-) TimerEvent: {}
+[8.021351] (-) TimerEvent: {}
+[8.121688] (-) TimerEvent: {}
+[8.222027] (-) TimerEvent: {}
+[8.322499] (-) TimerEvent: {}
+[8.422952] (-) TimerEvent: {}
+[8.523412] (-) TimerEvent: {}
+[8.623854] (-) TimerEvent: {}
+[8.668264] (vector) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vector/srv/vector_speak__type_support.cpp.o\x1b[0m\n'}
+[8.680978] (vector) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vector/srv/detail/vector_speak__type_support.cpp.o\x1b[0m\n'}
+[8.723995] (-) TimerEvent: {}
+[8.824461] (-) TimerEvent: {}
+[8.924931] (-) TimerEvent: {}
+[9.025407] (-) TimerEvent: {}
+[9.127341] (-) TimerEvent: {}
+[9.158429] (vector) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libvector__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.159438] (vector) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.227476] (-) TimerEvent: {}
+[9.322265] (vector) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libvector__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.327630] (-) TimerEvent: {}
+[9.344598] (vector) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libvector__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.427747] (-) TimerEvent: {}
+[9.434060] (vector) StdoutLine: {'line': b'[ 46%] Built target vector__rosidl_typesupport_cpp\n'}
+[9.446995] (vector) StdoutLine: {'line': b'[ 46%] Built target vector__rosidl_typesupport_fastrtps_cpp\n'}
+[9.455768] (vector) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.468496] (vector) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.500801] (vector) StdoutLine: {'line': b'[ 51%] Built target vector__rosidl_typesupport_introspection_cpp\n'}
+[9.527858] (-) TimerEvent: {}
+[9.628341] (-) TimerEvent: {}
+[9.728855] (-) TimerEvent: {}
+[9.829429] (-) TimerEvent: {}
+[9.929922] (-) TimerEvent: {}
+[9.940226] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.969301] (vector) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/vector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vector/srv/detail/vector_connect__type_support.c.o\x1b[0m\n'}
+[9.969964] (vector) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/vector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vector/srv/detail/vector_speak__type_support.c.o\x1b[0m\n'}
+[10.030053] (-) TimerEvent: {}
+[10.051173] (vector) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libvector__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.089191] (vector) StdoutLine: {'line': b'[ 58%] Built target vector__rosidl_typesupport_introspection_c\n'}
+[10.130169] (-) TimerEvent: {}
+[10.213099] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.230271] (-) TimerEvent: {}
+[10.244863] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_c\x1b[0m\n'}
+[10.246477] (vector) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vector/srv/detail/vector_connect__type_support_c.cpp.o\x1b[0m\n'}
+[10.247405] (vector) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vector/srv/detail/vector_speak__type_support_c.cpp.o\x1b[0m\n'}
+[10.266352] (vector) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_c.dir/rosidl_typesupport_c/vector/srv/vector_connect__type_support.cpp.o\x1b[0m\n'}
+[10.266741] (vector) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_c.dir/rosidl_typesupport_c/vector/srv/vector_speak__type_support.cpp.o\x1b[0m\n'}
+[10.322558] (vector) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libvector__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.330401] (-) TimerEvent: {}
+[10.378799] (vector) StdoutLine: {'line': b'[ 71%] Built target vector__rosidl_typesupport_c\n'}
+[10.430531] (-) TimerEvent: {}
+[10.530971] (-) TimerEvent: {}
+[10.631569] (-) TimerEvent: {}
+[10.732079] (-) TimerEvent: {}
+[10.827672] (vector) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libvector__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.832201] (-) TimerEvent: {}
+[10.932574] (-) TimerEvent: {}
+[10.947085] (vector) StdoutLine: {'line': b'[ 74%] Built target vector__rosidl_typesupport_fastrtps_c\n'}
+[10.974368] (vector) StdoutLine: {'line': b'[ 74%] Built target vector\n'}
+[10.989356] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__py\x1b[0m\n'}
+[11.002365] (vector) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.032719] (-) TimerEvent: {}
+[11.133045] (-) TimerEvent: {}
+[11.233370] (-) TimerEvent: {}
+[11.333691] (-) TimerEvent: {}
+[11.434121] (-) TimerEvent: {}
+[11.534416] (-) TimerEvent: {}
+[11.634703] (-) TimerEvent: {}
+[11.735011] (-) TimerEvent: {}
+[11.835319] (-) TimerEvent: {}
+[11.935621] (-) TimerEvent: {}
+[11.954997] (vector) StdoutLine: {'line': b'[ 76%] Built target vector__py\n'}
+[11.971251] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__python\x1b[0m\n'}
+[11.997450] (vector) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/vector__python.dir/rosidl_generator_py/vector/srv/_vector_speak_s.c.o\x1b[0m\n'}
+[11.997710] (vector) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/vector__python.dir/rosidl_generator_py/vector/srv/_vector_connect_s.c.o\x1b[0m\n'}
+[12.035760] (-) TimerEvent: {}
+[12.136111] (-) TimerEvent: {}
+[12.236438] (-) TimerEvent: {}
+[12.336823] (-) TimerEvent: {}
+[12.437165] (-) TimerEvent: {}
+[12.537732] (-) TimerEvent: {}
+[12.565636] (vector) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vector/libvector__python.so\x1b[0m\n'}
+[12.617096] (vector) StdoutLine: {'line': b'[ 84%] Built target vector__python\n'}
+[12.632949] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.636737] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.637012] (vector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vector__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.637801] (-) TimerEvent: {}
+[12.668944] (vector) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vector__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vector/_vector_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.675067] (vector) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/vector__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vector/_vector_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.681156] (vector) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/vector__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vector/_vector_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.737950] (-) TimerEvent: {}
+[12.813284] (vector) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vector/vector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.838076] (-) TimerEvent: {}
+[12.861505] (vector) StdoutLine: {'line': b'[ 94%] Built target vector__rosidl_typesupport_introspection_c__pyext\n'}
+[12.868730] (vector) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vector/vector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.880111] (vector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/vector/vector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.915615] (vector) StdoutLine: {'line': b'[100%] Built target vector__rosidl_typesupport_c__pyext\n'}
+[12.938299] (-) TimerEvent: {}
+[12.963304] (vector) StdoutLine: {'line': b'[100%] Built target vector__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.980042] (vector) CommandEnded: {'returncode': 0}
+[13.038390] (-) TimerEvent: {}
+[13.060474] (vector) JobProgress: {'identifier': 'vector', 'progress': 'install'}
+[13.079580] (vector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fizzer/ros2_ws/build/vector'], 'cwd': '/home/fizzer/ros2_ws/build/vector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'fizzer'), ('LC_TIME', 'en_CA.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '969'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/fizzer/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fizzer/ros2_ws/install/vector/lib:/home/fizzer/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/fizzer'), ('OLDPWD', '/home/fizzer'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('LXQT_DEFAULT_OPENBOX_CONFIG', '/etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'en_CA.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/fizzer/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fizzer'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/foxy/bin:/home/fizzer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('XDG_DATA_HOME', '/home/fizzer/.local/share'), ('XDG_CONFIG_HOME', '/home/fizzer/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/fizzer/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-MGlmRBiLfgTU/agent.924'), ('AMENT_PREFIX_PATH', '/home/fizzer/ros2_ws/install/vector:/home/fizzer/ros2_ws/install/tutorial_interfaces:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('XDG_VTNR', '1'), ('PWD', '/home/fizzer/ros2_ws/build/vector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/test_pkg/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/pkg1/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages:/home/fizzer/ros2_ws/install/cameraTests/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fizzer/ros2_ws/install/vector:/home/fizzer/ros2_ws/install/tutorial_interfaces:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy')]), 'shell': False}
+[13.096578] (vector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.097073] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/pythonpath.sh\n'}
+[13.097373] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/pythonpath.dsv\n'}
+[13.097589] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector\n'}
+[13.097810] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py\n'}
+[13.097993] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_interface.py\n'}
+[13.098146] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/client_test.py\n'}
+[13.138477] (-) TimerEvent: {}
+[13.150041] (vector) StdoutLine: {'line': b"Listing '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector'...\n"}
+[13.150367] (vector) StdoutLine: {'line': b"Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py'...\n"}
+[13.150482] (vector) StdoutLine: {'line': b"Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/client_test.py'...\n"}
+[13.150579] (vector) StdoutLine: {'line': b"Listing '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv'...\n"}
+[13.150671] (vector) StdoutLine: {'line': b"Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_interface.py'...\n"}
+[13.155734] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/vector/vector_interface.py\n'}
+[13.156194] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/vector/client_test.py\n'}
+[13.156509] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/rosidl_interfaces/vector\n'}
+[13.156824] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector\n'}
+[13.157091] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv\n'}
+[13.157305] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail\n'}
+[13.157539] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__functions.h\n'}
+[13.157791] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__type_support.h\n'}
+[13.158004] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__functions.h\n'}
+[13.158233] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__struct.h\n'}
+[13.158505] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__functions.c\n'}
+[13.158755] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__struct.h\n'}
+[13.158988] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__functions.c\n'}
+[13.159216] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.h\n'}
+[13.159436] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_speak.h\n'}
+[13.159628] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_connect.h\n'}
+[13.159820] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg\n'}
+[13.160026] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.160255] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/library_path.sh\n'}
+[13.160440] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/library_path.dsv\n'}
+[13.160618] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_generator_c.so\n'}
+[13.160906] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_generator_c.so" to ""\n'}
+[13.161190] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector\n'}
+[13.161392] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv\n'}
+[13.161599] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail\n'}
+[13.161818] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__rosidl_typesupport_fastrtps_c.h\n'}
+[13.162011] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_fastrtps_c.h\n'}
+[13.162234] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg\n'}
+[13.162408] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.162571] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_c.so\n'}
+[13.162954] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.163234] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector\n'}
+[13.163505] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv\n'}
+[13.163725] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail\n'}
+[13.163955] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/dds_fastrtps\n'}
+[13.164143] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.164326] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.164534] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg\n'}
+[13.164687] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.164866] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.165178] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.165433] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector\n'}
+[13.165654] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv\n'}
+[13.165876] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail\n'}
+[13.166092] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__type_support.c\n'}
+[13.166317] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.c\n'}
+[13.166569] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__rosidl_typesupport_introspection_c.h\n'}
+[13.166759] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_introspection_c.h\n'}
+[13.166968] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg\n'}
+[13.167145] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.167310] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_c.so\n'}
+[13.167642] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.168009] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_c.so\n'}
+[13.168540] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_c.so" to ""\n'}
+[13.168858] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector\n'}
+[13.169091] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv\n'}
+[13.169331] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail\n'}
+[13.169541] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__traits.hpp\n'}
+[13.169754] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__traits.hpp\n'}
+[13.169958] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__builder.hpp\n'}
+[13.170159] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__builder.hpp\n'}
+[13.170404] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__struct.hpp\n'}
+[13.170564] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__struct.hpp\n'}
+[13.170864] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_connect.hpp\n'}
+[13.171044] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_speak.hpp\n'}
+[13.171254] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector\n'}
+[13.171453] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv\n'}
+[13.171646] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail\n'}
+[13.171802] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.171978] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.cpp\n'}
+[13.172192] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.172354] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__type_support.cpp\n'}
+[13.172534] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_cpp.so\n'}
+[13.172890] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.173269] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_cpp.so\n'}
+[13.173831] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_cpp.so" to ""\n'}
+[13.174070] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py\n'}
+[13.219595] (vector) StdoutLine: {'line': b"Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py'...\n"}
+[13.224967] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv\n'}
+[13.225360] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_connect_s.c\n'}
+[13.225592] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_connect.py\n'}
+[13.225879] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_speak.py\n'}
+[13.226119] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/__init__.py\n'}
+[13.226318] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_speak_s.c\n'}
+[13.226699] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.227419] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.227931] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.228656] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.229125] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.229814] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[13.230174] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__python.so\n'}
+[13.231060] (vector) StdoutLine: {'line': b'-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__python.so" to ""\n'}
+[13.231456] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect.idl\n'}
+[13.231724] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorSpeak.idl\n'}
+[13.232099] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect.srv\n'}
+[13.232386] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect_Request.msg\n'}
+[13.232724] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect_Response.msg\n'}
+[13.233018] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorSpeak.srv\n'}
+[13.233264] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorSpeak_Request.msg\n'}
+[13.233541] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorSpeak_Response.msg\n'}
+[13.233813] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/package_run_dependencies/vector\n'}
+[13.234129] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/parent_prefix_path/vector\n'}
+[13.234399] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/ament_prefix_path.sh\n'}
+[13.234602] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/ament_prefix_path.dsv\n'}
+[13.234856] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/path.sh\n'}
+[13.235068] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/path.dsv\n'}
+[13.235319] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.bash\n'}
+[13.235543] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.sh\n'}
+[13.235744] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.zsh\n'}
+[13.235921] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.dsv\n'}
+[13.236128] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/package.dsv\n'}
+[13.236347] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/packages/vector\n'}
+[13.236559] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cExport.cmake\n'}
+[13.236730] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.236955] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.237168] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.237528] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cExport.cmake\n'}
+[13.237822] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.238134] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cppExport.cmake\n'}
+[13.238470] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.238727] (-) TimerEvent: {}
+[13.238919] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.239244] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cppExport.cmake\n'}
+[13.239475] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.239741] (vector) StdoutLine: {'line': b'-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake-extras.cmake\n'}
+[13.239966] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.240189] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.240414] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.240641] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.240867] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.241046] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.241225] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vectorConfig.cmake\n'}
+[13.241398] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vectorConfig-version.cmake\n'}
+[13.241595] (vector) StdoutLine: {'line': b'-- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/package.xml\n'}
+[13.243536] (vector) CommandEnded: {'returncode': 0}
+[13.338879] (-) TimerEvent: {}
+[13.363957] (vector) JobEnded: {'identifier': 'vector', 'rc': 0}
+[13.365030] (-) EventReactorShutdown: {}

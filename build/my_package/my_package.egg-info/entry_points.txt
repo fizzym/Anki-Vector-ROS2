@@ -1,0 +1,10 @@
+[console_scripts]
+cli = my_package.client:main
+double_pub = my_package.multi_pub:main
+listen = my_package.sub:main
+listen2 = my_package.sub2:main
+my_node = my_package.my_node:main
+serv = my_package.serv:main
+talk = my_package.pub:main
+talk2 = my_package.pub2:main
+

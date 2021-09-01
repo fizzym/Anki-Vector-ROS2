@@ -1,0 +1,4 @@
+[console_scripts]
+listener = securityTests.sub:main
+talker = securityTests.pub:main
+

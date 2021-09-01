@@ -1,0 +1,151 @@
+[0.018s] Invoking command in '/home/fizzer/ros2_ws/build/vector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/vector -- -j4 -l4
+[0.092s] [  2%] Built target vector__cpp
+[0.092s] [ 12%] Built target vector__rosidl_generator_c
+[0.135s] [ 23%] Built target vector__rosidl_typesupport_introspection_c
+[0.139s] [ 33%] Built target vector__rosidl_typesupport_cpp
+[0.144s] [ 43%] Built target vector__rosidl_typesupport_introspection_cpp
+[0.150s] [ 53%] Built target vector__rosidl_typesupport_fastrtps_cpp
+[0.163s] [ 64%] Built target vector__rosidl_typesupport_c
+[0.183s] [ 74%] Built target vector__rosidl_typesupport_fastrtps_c
+[0.212s] [ 74%] Built target vector
+[0.241s] [ 76%] Built target vector__py
+[0.276s] [ 84%] Built target vector__python
+[0.312s] [ 89%] Built target vector__rosidl_typesupport_fastrtps_c__pyext
+[0.322s] [ 94%] Built target vector__rosidl_typesupport_introspection_c__pyext
+[0.322s] [100%] Built target vector__rosidl_typesupport_c__pyext
+[0.337s] Invoked command in '/home/fizzer/ros2_ws/build/vector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/vector -- -j4 -l4
+[0.425s] Invoking command in '/home/fizzer/ros2_ws/build/vector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/vector
+[0.438s] -- Install configuration: ""
+[0.438s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/pythonpath.sh
+[0.438s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/pythonpath.dsv
+[0.438s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector
+[0.438s] -- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py
+[0.438s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_interface.py
+[0.438s] -- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/client_test.py
+[0.488s] Listing '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector'...
+[0.488s] Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py'...
+[0.488s] Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/client_test.py'...
+[0.488s] Listing '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv'...
+[0.493s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/vector/vector_interface.py
+[0.494s] -- Installing: /home/fizzer/ros2_ws/install/vector/lib/vector/client_test.py
+[0.494s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/rosidl_interfaces/vector
+[0.494s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+[0.495s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+[0.495s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+[0.495s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__functions.h
+[0.495s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__type_support.h
+[0.496s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__functions.h
+[0.496s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__struct.h
+[0.496s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__functions.c
+[0.496s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__struct.h
+[0.497s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__functions.c
+[0.497s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.h
+[0.497s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_speak.h
+[0.497s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_connect.h
+[0.497s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg
+[0.498s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_generator_c__visibility_control.h
+[0.498s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/library_path.sh
+[0.498s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/library_path.dsv
+[0.499s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_generator_c.so
+[0.499s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+[0.499s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+[0.499s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+[0.499s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__rosidl_typesupport_fastrtps_c.h
+[0.500s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_fastrtps_c.h
+[0.500s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg
+[0.500s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.500s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_c.so
+[0.501s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+[0.501s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+[0.501s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+[0.501s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/dds_fastrtps
+[0.502s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_fastrtps_cpp.hpp
+[0.502s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__rosidl_typesupport_fastrtps_cpp.hpp
+[0.502s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg
+[0.502s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.502s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_cpp.so
+[0.503s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+[0.503s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+[0.503s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+[0.503s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__type_support.c
+[0.503s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.c
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__rosidl_typesupport_introspection_c.h
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_introspection_c.h
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_c.so
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_c.so
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+[0.504s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__traits.hpp
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__traits.hpp
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__builder.hpp
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__builder.hpp
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__struct.hpp
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__struct.hpp
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_connect.hpp
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_speak.hpp
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+[0.505s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+[0.506s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_introspection_cpp.hpp
+[0.506s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.cpp
+[0.506s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__rosidl_typesupport_introspection_cpp.hpp
+[0.506s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_speak__type_support.cpp
+[0.506s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_cpp.so
+[0.506s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_cpp.so
+[0.506s] -- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py
+[0.550s] Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py'...
+[0.556s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv
+[0.556s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_connect_s.c
+[0.556s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_connect.py
+[0.556s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_speak.py
+[0.556s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/__init__.py
+[0.556s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_speak_s.c
+[0.556s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.557s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.558s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.558s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/lib/libvector__python.so
+[0.559s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect.idl
+[0.559s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorSpeak.idl
+[0.559s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect.srv
+[0.559s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect_Request.msg
+[0.560s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect_Response.msg
+[0.560s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorSpeak.srv
+[0.560s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorSpeak_Request.msg
+[0.560s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorSpeak_Response.msg
+[0.561s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/package_run_dependencies/vector
+[0.561s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/parent_prefix_path/vector
+[0.561s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/ament_prefix_path.sh
+[0.561s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/ament_prefix_path.dsv
+[0.561s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/path.sh
+[0.562s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/environment/path.dsv
+[0.562s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.bash
+[0.562s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.sh
+[0.562s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.zsh
+[0.562s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.dsv
+[0.563s] -- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/package.dsv
+[0.563s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/packages/vector
+[0.563s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cExport.cmake
+[0.563s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cExport-noconfig.cmake
+[0.564s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cExport.cmake
+[0.564s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.564s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cExport.cmake
+[0.564s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cExport-noconfig.cmake
+[0.565s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cppExport.cmake
+[0.565s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cppExport.cmake
+[0.565s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.565s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cppExport.cmake
+[0.565s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cppExport-noconfig.cmake
+[0.565s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake-extras.cmake
+[0.565s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.566s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_libraries-extras.cmake
+[0.566s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_targets-extras.cmake
+[0.566s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.566s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.566s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.566s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vectorConfig.cmake
+[0.566s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vectorConfig-version.cmake
+[0.567s] -- Up-to-date: /home/fizzer/ros2_ws/install/vector/share/vector/package.xml
+[0.569s] Invoked command in '/home/fizzer/ros2_ws/build/vector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/vector

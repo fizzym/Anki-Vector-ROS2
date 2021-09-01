@@ -1,0 +1,33 @@
+[0.391s] Invoking command in '/home/fizzer/ros2_ws/src/test_pkg': PYTHONPATH=/home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_pkg build --build-base /home/fizzer/ros2_ws/src/build/test_pkg/build install --prefix /home/fizzer/ros2_ws/src/install/test_pkg --record /home/fizzer/ros2_ws/src/build/test_pkg/install.log --single-version-externally-managed
+[0.677s] running egg_info
+[0.678s] creating ../build/test_pkg/test_pkg.egg-info
+[0.679s] writing ../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[0.679s] writing dependency_links to ../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[0.679s] writing entry points to ../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[0.680s] writing requirements to ../build/test_pkg/test_pkg.egg-info/requires.txt
+[0.680s] writing top-level names to ../build/test_pkg/test_pkg.egg-info/top_level.txt
+[0.681s] writing manifest file '../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.720s] reading manifest file '../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.721s] writing manifest file '../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.721s] running build
+[0.722s] running build_py
+[0.722s] creating /home/fizzer/ros2_ws/src/build/test_pkg/build
+[0.722s] creating /home/fizzer/ros2_ws/src/build/test_pkg/build/lib
+[0.722s] creating /home/fizzer/ros2_ws/src/build/test_pkg/build/lib/test_pkg
+[0.722s] copying test_pkg/__init__.py -> /home/fizzer/ros2_ws/src/build/test_pkg/build/lib/test_pkg
+[0.722s] running install
+[0.723s] running install_lib
+[0.724s] creating /home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages/test_pkg
+[0.725s] copying /home/fizzer/ros2_ws/src/build/test_pkg/build/lib/test_pkg/__init__.py -> /home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages/test_pkg
+[0.725s] byte-compiling /home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages/test_pkg/__init__.py to __init__.cpython-38.pyc
+[0.727s] running install_data
+[0.727s] creating /home/fizzer/ros2_ws/src/install/test_pkg/share/ament_index
+[0.728s] creating /home/fizzer/ros2_ws/src/install/test_pkg/share/ament_index/resource_index
+[0.728s] creating /home/fizzer/ros2_ws/src/install/test_pkg/share/ament_index/resource_index/packages
+[0.728s] copying resource/test_pkg -> /home/fizzer/ros2_ws/src/install/test_pkg/share/ament_index/resource_index/packages
+[0.728s] copying package.xml -> /home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg
+[0.728s] running install_egg_info
+[0.730s] Copying ../build/test_pkg/test_pkg.egg-info to /home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages/test_pkg-0.0.0-py3.8.egg-info
+[0.731s] running install_scripts
+[0.753s] writing list of installed files to '/home/fizzer/ros2_ws/src/build/test_pkg/install.log'
+[0.786s] Invoked command in '/home/fizzer/ros2_ws/src/test_pkg' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_pkg build --build-base /home/fizzer/ros2_ws/src/build/test_pkg/build install --prefix /home/fizzer/ros2_ws/src/install/test_pkg --record /home/fizzer/ros2_ws/src/build/test_pkg/install.log --single-version-externally-managed

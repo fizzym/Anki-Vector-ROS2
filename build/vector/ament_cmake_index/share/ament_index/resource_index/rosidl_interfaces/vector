@@ -1,0 +1,8 @@
+srv/VectorConnect.idl
+srv/VectorConnect.srv
+srv/VectorConnect_Request.msg
+srv/VectorConnect_Response.msg
+srv/VectorSpeak.idl
+srv/VectorSpeak.srv
+srv/VectorSpeak_Request.msg
+srv/VectorSpeak_Response.msg

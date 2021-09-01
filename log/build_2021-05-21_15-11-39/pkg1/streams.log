@@ -1,0 +1,23 @@
+[1.201s] Invoking command in '/home/fizzer/ros2_ws/src/pkg1': PYTHONPATH=/home/fizzer/ros2_ws/install/pkg1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg1 build --build-base /home/fizzer/ros2_ws/build/pkg1/build install --prefix /home/fizzer/ros2_ws/install/pkg1 --record /home/fizzer/ros2_ws/build/pkg1/install.log --single-version-externally-managed
+[1.702s] running egg_info
+[1.703s] writing ../../build/pkg1/pkg1.egg-info/PKG-INFO
+[1.704s] writing dependency_links to ../../build/pkg1/pkg1.egg-info/dependency_links.txt
+[1.705s] writing entry points to ../../build/pkg1/pkg1.egg-info/entry_points.txt
+[1.706s] writing requirements to ../../build/pkg1/pkg1.egg-info/requires.txt
+[1.706s] writing top-level names to ../../build/pkg1/pkg1.egg-info/top_level.txt
+[1.791s] reading manifest file '../../build/pkg1/pkg1.egg-info/SOURCES.txt'
+[1.794s] writing manifest file '../../build/pkg1/pkg1.egg-info/SOURCES.txt'
+[1.794s] running build
+[1.795s] running build_py
+[1.796s] running install
+[1.798s] running install_lib
+[1.802s] running install_data
+[1.803s] running install_egg_info
+[1.810s] removing '/home/fizzer/ros2_ws/install/pkg1/lib/python3.8/site-packages/pkg1-0.0.0-py3.8.egg-info' (and everything under it)
+[1.811s] Copying ../../build/pkg1/pkg1.egg-info to /home/fizzer/ros2_ws/install/pkg1/lib/python3.8/site-packages/pkg1-0.0.0-py3.8.egg-info
+[1.814s] running install_scripts
+[1.864s] Installing listen script to /home/fizzer/ros2_ws/install/pkg1/lib/pkg1
+[1.865s] Installing node1 script to /home/fizzer/ros2_ws/install/pkg1/lib/pkg1
+[1.866s] Installing talk script to /home/fizzer/ros2_ws/install/pkg1/lib/pkg1
+[1.868s] writing list of installed files to '/home/fizzer/ros2_ws/build/pkg1/install.log'
+[1.960s] Invoked command in '/home/fizzer/ros2_ws/src/pkg1' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/pkg1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg1 build --build-base /home/fizzer/ros2_ws/build/pkg1/build install --prefix /home/fizzer/ros2_ws/install/pkg1 --record /home/fizzer/ros2_ws/build/pkg1/install.log --single-version-externally-managed

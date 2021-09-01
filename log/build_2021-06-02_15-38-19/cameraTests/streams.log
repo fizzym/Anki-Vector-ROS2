@@ -1,0 +1,27 @@
+[0.951s] Invoking command in '/home/fizzer/ros2_ws/src/cameraTests': PYTHONPATH=/home/fizzer/ros2_ws/install/cameraTests/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cameraTests build --build-base /home/fizzer/ros2_ws/build/cameraTests/build install --prefix /home/fizzer/ros2_ws/install/cameraTests --record /home/fizzer/ros2_ws/build/cameraTests/install.log --single-version-externally-managed
+[1.819s] running egg_info
+[1.820s] writing ../../build/cameraTests/cameraTests.egg-info/PKG-INFO
+[1.919s] writing dependency_links to ../../build/cameraTests/cameraTests.egg-info/dependency_links.txt
+[1.920s] writing entry points to ../../build/cameraTests/cameraTests.egg-info/entry_points.txt
+[1.920s] writing requirements to ../../build/cameraTests/cameraTests.egg-info/requires.txt
+[1.920s] writing top-level names to ../../build/cameraTests/cameraTests.egg-info/top_level.txt
+[3.018s] reading manifest file '../../build/cameraTests/cameraTests.egg-info/SOURCES.txt'
+[3.059s] writing manifest file '../../build/cameraTests/cameraTests.egg-info/SOURCES.txt'
+[3.059s] running build
+[3.059s] running build_py
+[3.087s] copying cameraTests/publish_camera_feed.py -> /home/fizzer/ros2_ws/build/cameraTests/build/lib/cameraTests
+[3.142s] running install
+[3.143s] running install_lib
+[3.242s] copying /home/fizzer/ros2_ws/build/cameraTests/build/lib/cameraTests/publish_camera_feed.py -> /home/fizzer/ros2_ws/install/cameraTests/lib/python3.8/site-packages/cameraTests
+[3.243s] byte-compiling /home/fizzer/ros2_ws/install/cameraTests/lib/python3.8/site-packages/cameraTests/publish_camera_feed.py to publish_camera_feed.cpython-38.pyc
+[3.245s] running install_data
+[3.292s] running install_egg_info
+[3.402s] removing '/home/fizzer/ros2_ws/install/cameraTests/lib/python3.8/site-packages/cameraTests-0.0.0-py3.8.egg-info' (and everything under it)
+[3.403s] Copying ../../build/cameraTests/cameraTests.egg-info to /home/fizzer/ros2_ws/install/cameraTests/lib/python3.8/site-packages/cameraTests-0.0.0-py3.8.egg-info
+[3.442s] running install_scripts
+[3.791s] Installing cam_pub script to /home/fizzer/ros2_ws/install/cameraTests/lib/cameraTests
+[3.817s] Installing cam_pub_2 script to /home/fizzer/ros2_ws/install/cameraTests/lib/cameraTests
+[3.818s] Installing cam_sub script to /home/fizzer/ros2_ws/install/cameraTests/lib/cameraTests
+[3.818s] Installing cam_sub_2 script to /home/fizzer/ros2_ws/install/cameraTests/lib/cameraTests
+[3.818s] writing list of installed files to '/home/fizzer/ros2_ws/build/cameraTests/install.log'
+[3.860s] Invoked command in '/home/fizzer/ros2_ws/src/cameraTests' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/cameraTests/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cameraTests build --build-base /home/fizzer/ros2_ws/build/cameraTests/build install --prefix /home/fizzer/ros2_ws/install/cameraTests --record /home/fizzer/ros2_ws/build/cameraTests/install.log --single-version-externally-managed

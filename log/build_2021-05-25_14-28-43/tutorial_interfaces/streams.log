@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/fizzer/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/tutorial_interfaces -- -j4 -l4
+[0.061s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.095s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.095s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.349s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.436s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[0.437s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.674s] CMake Error at /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:46 (message):
+[0.674s]   ament_python_install_package() the Python package folder
+[0.674s]   '/home/fizzer/ros2_ws/src/tutorial_interfaces/tutorial_interfaces' doesn't
+[0.674s]   contain an '__init__.py' file
+[0.674s] Call Stack (most recent call first):
+[0.674s]   /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:28 (_ament_cmake_python_install_package)
+[0.675s]   CMakeLists.txt:40 (ament_python_install_package)
+[0.675s] 
+[0.675s] 
+[0.675s] -- Configuring incomplete, errors occurred!
+[0.676s] See also "/home/fizzer/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.682s] make: *** [Makefile:1016: cmake_check_build_system] Error 1
+[0.684s] Invoked command in '/home/fizzer/ros2_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/tutorial_interfaces -- -j4 -l4

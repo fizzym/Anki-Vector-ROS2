@@ -1,0 +1,3 @@
+source;share/security/hook/pythonpath.ps1
+source;share/security/hook/pythonpath.dsv
+source;share/security/hook/pythonpath.sh

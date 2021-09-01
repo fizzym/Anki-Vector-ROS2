@@ -1,0 +1,43 @@
+[0.434s] Invoking command in '/home/fizzer/ros2_ws/src/securityTests': PYTHONPATH=/home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/securityTests build --build-base /home/fizzer/ros2_ws/build/securityTests/build install --prefix /home/fizzer/ros2_ws/install/securityTests --record /home/fizzer/ros2_ws/build/securityTests/install.log --single-version-externally-managed
+[0.789s] running egg_info
+[0.790s] creating ../../build/securityTests/securityTests.egg-info
+[0.790s] writing ../../build/securityTests/securityTests.egg-info/PKG-INFO
+[0.791s] writing dependency_links to ../../build/securityTests/securityTests.egg-info/dependency_links.txt
+[0.791s] writing entry points to ../../build/securityTests/securityTests.egg-info/entry_points.txt
+[0.791s] writing requirements to ../../build/securityTests/securityTests.egg-info/requires.txt
+[0.791s] writing top-level names to ../../build/securityTests/securityTests.egg-info/top_level.txt
+[0.835s] writing manifest file '../../build/securityTests/securityTests.egg-info/SOURCES.txt'
+[0.957s] reading manifest file '../../build/securityTests/securityTests.egg-info/SOURCES.txt'
+[0.958s] writing manifest file '../../build/securityTests/securityTests.egg-info/SOURCES.txt'
+[0.958s] running build
+[0.958s] running build_py
+[0.959s] creating /home/fizzer/ros2_ws/build/securityTests/build
+[0.959s] creating /home/fizzer/ros2_ws/build/securityTests/build/lib
+[0.959s] creating /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests
+[0.959s] copying securityTests/__init__.py -> /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests
+[0.960s] copying securityTests/sub.py -> /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests
+[0.960s] copying securityTests/pub.py -> /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests
+[0.960s] running install
+[0.961s] running install_lib
+[0.962s] creating /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests
+[0.963s] copying /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests/__init__.py -> /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests
+[0.963s] copying /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests/sub.py -> /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests
+[0.963s] copying /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests/pub.py -> /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests
+[0.964s] byte-compiling /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests/__init__.py to __init__.cpython-38.pyc
+[0.965s] byte-compiling /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests/sub.py to sub.cpython-38.pyc
+[0.966s] byte-compiling /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests/pub.py to pub.cpython-38.pyc
+[0.966s] running install_data
+[0.967s] creating /home/fizzer/ros2_ws/install/securityTests/share
+[0.968s] creating /home/fizzer/ros2_ws/install/securityTests/share/ament_index
+[0.968s] creating /home/fizzer/ros2_ws/install/securityTests/share/ament_index/resource_index
+[0.968s] creating /home/fizzer/ros2_ws/install/securityTests/share/ament_index/resource_index/packages
+[0.968s] copying resource/securityTests -> /home/fizzer/ros2_ws/install/securityTests/share/ament_index/resource_index/packages
+[0.969s] creating /home/fizzer/ros2_ws/install/securityTests/share/securityTests
+[0.969s] copying package.xml -> /home/fizzer/ros2_ws/install/securityTests/share/securityTests
+[0.969s] running install_egg_info
+[0.971s] Copying ../../build/securityTests/securityTests.egg-info to /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests-0.0.0-py3.8.egg-info
+[0.972s] running install_scripts
+[0.997s] Installing listener script to /home/fizzer/ros2_ws/install/securityTests/lib/securityTests
+[0.997s] Installing talker script to /home/fizzer/ros2_ws/install/securityTests/lib/securityTests
+[0.998s] writing list of installed files to '/home/fizzer/ros2_ws/build/securityTests/install.log'
+[1.027s] Invoked command in '/home/fizzer/ros2_ws/src/securityTests' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/securityTests build --build-base /home/fizzer/ros2_ws/build/securityTests/build install --prefix /home/fizzer/ros2_ws/install/securityTests --record /home/fizzer/ros2_ws/build/securityTests/install.log --single-version-externally-managed

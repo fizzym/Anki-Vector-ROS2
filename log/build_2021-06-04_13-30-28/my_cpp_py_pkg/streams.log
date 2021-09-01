@@ -1,0 +1,20 @@
+[0.647s] Invoking command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.958s] Invoked command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[1.041s] Invoking command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/my_cpp_py_pkg
+[1.067s] -- Install configuration: ""
+[1.067s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+[1.067s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+[1.068s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+[1.068s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+[1.068s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+[1.068s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+[1.068s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+[1.069s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+[1.069s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+[1.069s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+[1.069s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+[1.070s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+[1.070s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+[1.070s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+[1.070s] -- Up-to-date: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml
+[1.083s] Invoked command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/my_cpp_py_pkg

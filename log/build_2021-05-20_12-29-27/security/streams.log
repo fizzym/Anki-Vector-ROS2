@@ -1,0 +1,22 @@
+[1.129s] Invoking command in '/home/fizzer/ros2_ws/src/security': PYTHONPATH=/home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/security build --build-base /home/fizzer/ros2_ws/build/security/build install --prefix /home/fizzer/ros2_ws/install/security --record /home/fizzer/ros2_ws/build/security/install.log --single-version-externally-managed
+[1.624s] running egg_info
+[1.626s] writing ../../build/security/security.egg-info/PKG-INFO
+[1.626s] writing dependency_links to ../../build/security/security.egg-info/dependency_links.txt
+[1.627s] writing entry points to ../../build/security/security.egg-info/entry_points.txt
+[1.627s] writing requirements to ../../build/security/security.egg-info/requires.txt
+[1.628s] writing top-level names to ../../build/security/security.egg-info/top_level.txt
+[1.711s] reading manifest file '../../build/security/security.egg-info/SOURCES.txt'
+[1.713s] writing manifest file '../../build/security/security.egg-info/SOURCES.txt'
+[1.713s] running build
+[1.713s] running build_py
+[1.714s] running install
+[1.716s] running install_lib
+[1.719s] running install_data
+[1.720s] running install_egg_info
+[1.724s] removing '/home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security-0.0.0-py3.8.egg-info' (and everything under it)
+[1.724s] Copying ../../build/security/security.egg-info to /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security-0.0.0-py3.8.egg-info
+[1.726s] running install_scripts
+[1.767s] Installing listener script to /home/fizzer/ros2_ws/install/security/lib/security
+[1.768s] Installing talker script to /home/fizzer/ros2_ws/install/security/lib/security
+[1.769s] writing list of installed files to '/home/fizzer/ros2_ws/build/security/install.log'
+[1.880s] Invoked command in '/home/fizzer/ros2_ws/src/security' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/security build --build-base /home/fizzer/ros2_ws/build/security/build install --prefix /home/fizzer/ros2_ws/install/security --record /home/fizzer/ros2_ws/build/security/install.log --single-version-externally-managed

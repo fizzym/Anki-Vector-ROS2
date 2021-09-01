@@ -1,0 +1,14 @@
+source;share/vector/hook/cmake_prefix_path.ps1
+source;share/vector/hook/cmake_prefix_path.dsv
+source;share/vector/hook/cmake_prefix_path.sh
+source;share/vector/hook/ld_library_path_lib.ps1
+source;share/vector/hook/ld_library_path_lib.dsv
+source;share/vector/hook/ld_library_path_lib.sh
+source;share/vector/hook/pythonpath.ps1
+source;share/vector/hook/pythonpath.dsv
+source;share/vector/hook/pythonpath.sh
+source;share/vector/local_setup.bash
+source;share/vector/local_setup.dsv
+source;share/vector/local_setup.ps1
+source;share/vector/local_setup.sh
+source;share/vector/local_setup.zsh

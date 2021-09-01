@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vector/srv/VectorSpeak.srv
+// generated code does not contain a copyright notice
+
+
+module vector {
+  module srv {
+    @verbatim (language="comment", text=
+      " This service used to pass a message to vector for him to speak")
+    struct VectorSpeak_Request {
+      @verbatim (language="comment", text=
+        " message for vector to say")
+      string message;
+    };
+    struct VectorSpeak_Response {
+      @verbatim (language="comment", text=
+        " returns true if message recieved")
+      boolean success;
+    };
+  };
+};

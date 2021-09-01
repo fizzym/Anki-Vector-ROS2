@@ -1,0 +1,4 @@
+source;share/vector/environment/ament_prefix_path.sh
+source;share/vector/environment/library_path.sh
+source;share/vector/environment/path.sh
+source;share/vector/environment/pythonpath.sh

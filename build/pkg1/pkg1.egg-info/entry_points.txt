@@ -1,0 +1,5 @@
+[console_scripts]
+listen = pkg1.sub:main
+node1 = pkg1.node1:main
+talk = pkg1.pub:main
+

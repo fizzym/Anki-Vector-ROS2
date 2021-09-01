@@ -1,0 +1,33 @@
+[0.025s] Invoking command in '/home/fizzer/ros2_ws/build/security_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/security_test -- -j4 -l4
+[0.143s] Invoked command in '/home/fizzer/ros2_ws/build/security_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/security_test -- -j4 -l4
+[0.187s] Invoking command in '/home/fizzer/ros2_ws/build/security_test': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/security_test
+[0.208s] -- Install configuration: ""
+[0.208s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/environment/pythonpath.sh
+[0.209s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/environment/pythonpath.dsv
+[0.209s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/python3.8/site-packages/security_test
+[0.210s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/python3.8/site-packages/security_test/__init__.py
+[0.210s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/python3.8/site-packages/security_test/sub.py
+[0.211s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/python3.8/site-packages/security_test/sub2.py
+[0.211s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/python3.8/site-packages/security_test/pub2.py
+[0.212s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/python3.8/site-packages/security_test/pub.py
+[0.275s] Listing '/home/fizzer/ros2_ws/install/security_test/lib/python3.8/site-packages/security_test'...
+[0.285s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/security_test/pub.py
+[0.285s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/security_test/sub.py
+[0.286s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/security_test/pub2.py
+[0.286s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/lib/security_test/sub2.py
+[0.287s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/ament_index/resource_index/package_run_dependencies/security_test
+[0.287s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/ament_index/resource_index/parent_prefix_path/security_test
+[0.287s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/environment/ament_prefix_path.sh
+[0.289s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/environment/ament_prefix_path.dsv
+[0.289s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/environment/path.sh
+[0.289s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/environment/path.dsv
+[0.289s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/local_setup.bash
+[0.291s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/local_setup.sh
+[0.291s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/local_setup.zsh
+[0.291s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/local_setup.dsv
+[0.291s] -- Installing: /home/fizzer/ros2_ws/install/security_test/share/security_test/package.dsv
+[0.292s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/ament_index/resource_index/packages/security_test
+[0.303s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/cmake/security_testConfig.cmake
+[0.303s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/cmake/security_testConfig-version.cmake
+[0.304s] -- Up-to-date: /home/fizzer/ros2_ws/install/security_test/share/security_test/package.xml
+[0.304s] Invoked command in '/home/fizzer/ros2_ws/build/security_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/security_test

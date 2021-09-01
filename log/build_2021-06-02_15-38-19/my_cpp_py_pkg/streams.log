@@ -1,0 +1,55 @@
+[0.607s] Invoking command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fizzer/ros2_ws/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/fizzer/ros2_ws/install/my_cpp_py_pkg
+[2.558s] -- The C compiler identification is GNU 9.3.0
+[6.911s] -- The CXX compiler identification is GNU 9.3.0
+[6.981s] -- Check for working C compiler: /usr/bin/cc
+[7.075s] -- Check for working C compiler: /usr/bin/cc -- works
+[7.102s] -- Detecting C compiler ABI info
+[7.260s] -- Detecting C compiler ABI info - done
+[7.277s] -- Detecting C compile features
+[7.294s] -- Detecting C compile features - done
+[7.297s] -- Check for working CXX compiler: /usr/bin/c++
+[7.400s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.402s] -- Detecting CXX compiler ABI info
+[7.513s] -- Detecting CXX compiler ABI info - done
+[7.528s] -- Detecting CXX compile features
+[7.529s] -- Detecting CXX compile features - done
+[7.541s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.574s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[7.574s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.826s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.921s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.941s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.941s] -- Configured cppcheck include dirs: 
+[7.941s] -- Configured cppcheck exclude dirs and/or files: 
+[7.942s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.942s] -- Configured cpplint exclude dirs and/or files: 
+[7.943s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.944s] -- Added test 'lint_cmake' to check CMake code style
+[7.945s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.946s] -- Added test 'uncrustify' to check C / C++ code style
+[7.946s] -- Configured uncrustify additional arguments: 
+[7.946s] -- Added test 'xmllint' to check XML markup files
+[7.949s] -- Configuring done
+[7.951s] -- Generating done
+[7.952s] -- Build files have been written to: /home/fizzer/ros2_ws/build/my_cpp_py_pkg
+[7.957s] Invoked command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fizzer/ros2_ws/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/fizzer/ros2_ws/install/my_cpp_py_pkg
+[7.960s] Invoking command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[8.011s] Invoked command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[8.044s] Invoking command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/my_cpp_py_pkg
+[8.056s] -- Install configuration: ""
+[8.056s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+[8.057s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+[8.057s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+[8.057s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+[8.057s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+[8.057s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+[8.057s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+[8.058s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+[8.058s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+[8.058s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+[8.059s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+[8.059s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+[8.059s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+[8.059s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+[8.060s] -- Installing: /home/fizzer/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml
+[8.064s] Invoked command in '/home/fizzer/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/my_cpp_py_pkg

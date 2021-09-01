@@ -1,0 +1,6 @@
+Invoking command in '/home/fizzer/ros2_ws/build/vector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fizzer/ros2_ws/src/vector -DCMAKE_INSTALL_PREFIX=/home/fizzer/ros2_ws/install/vector
+Invoked command in '/home/fizzer/ros2_ws/build/vector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/fizzer/ros2_ws/src/vector -DCMAKE_INSTALL_PREFIX=/home/fizzer/ros2_ws/install/vector
+Invoking command in '/home/fizzer/ros2_ws/build/vector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/vector -- -j4 -l4
+Invoked command in '/home/fizzer/ros2_ws/build/vector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/vector -- -j4 -l4
+Invoking command in '/home/fizzer/ros2_ws/build/vector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/vector
+Invoked command in '/home/fizzer/ros2_ws/build/vector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fizzer/ros2_ws/build/vector

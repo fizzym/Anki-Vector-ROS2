@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/keyDrive/keyDrive.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyDrive/keyDrive.egg-info/dependency_links.txt
+writing entry points to ../../build/keyDrive/keyDrive.egg-info/entry_points.txt
+writing requirements to ../../build/keyDrive/keyDrive.egg-info/requires.txt
+writing top-level names to ../../build/keyDrive/keyDrive.egg-info/top_level.txt
+reading manifest file '../../build/keyDrive/keyDrive.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyDrive/keyDrive.egg-info/SOURCES.txt'
+running build
+running build_py
+copying keyDrive/read_ini.py -> /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+running install
+running install_lib
+copying /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive/read_ini.py -> /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+byte-compiling /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive/read_ini.py to read_ini.cpython-38.pyc
+running install_data
+copying package.xml -> /home/fizzer/ros2_ws/install/keyDrive/share/keyDrive
+running install_egg_info
+removing '/home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/keyDrive/keyDrive.egg-info to /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive-0.0.0-py3.8.egg-info
+running install_scripts
+Installing node1 script to /home/fizzer/ros2_ws/install/keyDrive/lib/keyDrive
+Installing node2 script to /home/fizzer/ros2_ws/install/keyDrive/lib/keyDrive
+writing list of installed files to '/home/fizzer/ros2_ws/build/keyDrive/install.log'

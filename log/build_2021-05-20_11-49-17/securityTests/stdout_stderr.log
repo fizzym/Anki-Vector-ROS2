@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/securityTests/securityTests.egg-info
+writing ../../build/securityTests/securityTests.egg-info/PKG-INFO
+writing dependency_links to ../../build/securityTests/securityTests.egg-info/dependency_links.txt
+writing entry points to ../../build/securityTests/securityTests.egg-info/entry_points.txt
+writing requirements to ../../build/securityTests/securityTests.egg-info/requires.txt
+writing top-level names to ../../build/securityTests/securityTests.egg-info/top_level.txt
+writing manifest file '../../build/securityTests/securityTests.egg-info/SOURCES.txt'
+reading manifest file '../../build/securityTests/securityTests.egg-info/SOURCES.txt'
+writing manifest file '../../build/securityTests/securityTests.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fizzer/ros2_ws/build/securityTests/build
+creating /home/fizzer/ros2_ws/build/securityTests/build/lib
+creating /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests
+copying securityTests/__init__.py -> /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests
+copying securityTests/sub.py -> /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests
+copying securityTests/pub.py -> /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests
+running install
+running install_lib
+creating /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests
+copying /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests/__init__.py -> /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests
+copying /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests/sub.py -> /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests
+copying /home/fizzer/ros2_ws/build/securityTests/build/lib/securityTests/pub.py -> /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests
+byte-compiling /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests/sub.py to sub.cpython-38.pyc
+byte-compiling /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests/pub.py to pub.cpython-38.pyc
+running install_data
+creating /home/fizzer/ros2_ws/install/securityTests/share
+creating /home/fizzer/ros2_ws/install/securityTests/share/ament_index
+creating /home/fizzer/ros2_ws/install/securityTests/share/ament_index/resource_index
+creating /home/fizzer/ros2_ws/install/securityTests/share/ament_index/resource_index/packages
+copying resource/securityTests -> /home/fizzer/ros2_ws/install/securityTests/share/ament_index/resource_index/packages
+creating /home/fizzer/ros2_ws/install/securityTests/share/securityTests
+copying package.xml -> /home/fizzer/ros2_ws/install/securityTests/share/securityTests
+running install_egg_info
+Copying ../../build/securityTests/securityTests.egg-info to /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/fizzer/ros2_ws/install/securityTests/lib/securityTests
+Installing talker script to /home/fizzer/ros2_ws/install/securityTests/lib/securityTests
+writing list of installed files to '/home/fizzer/ros2_ws/build/securityTests/install.log'

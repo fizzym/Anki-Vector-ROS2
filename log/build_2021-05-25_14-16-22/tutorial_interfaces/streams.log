@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/fizzer/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/tutorial_interfaces -- -j4 -l4
+[0.250s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.362s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.362s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.770s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.958s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.017s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.047s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.713s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.000s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.192s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.316s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[2.333s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.426s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.426s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.426s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.515s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[2.532s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.639s] CMake Error at CMakeLists.txt:49 (install):
+[2.639s]   install TARGETS given target "talker" which does not exist.
+[2.639s] 
+[2.639s] 
+[2.765s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.787s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.790s] -- Added test 'lint_cmake' to check CMake code style
+[2.791s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.797s] -- Added test 'xmllint' to check XML markup files
+[3.004s] -- Configuring incomplete, errors occurred!
+[3.004s] See also "/home/fizzer/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[3.012s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[3.014s] Invoked command in '/home/fizzer/ros2_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fizzer/ros2_ws/install/test_pkg:/home/fizzer/ros2_ws/install/my_package:/home/fizzer/ros2_ws/install/keyDrive:/home/fizzer/ros2_ws/install/cameraTests:/opt/ros/foxy /usr/bin/cmake --build /home/fizzer/ros2_ws/build/tutorial_interfaces -- -j4 -l4

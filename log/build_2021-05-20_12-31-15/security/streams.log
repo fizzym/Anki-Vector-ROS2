@@ -1,0 +1,22 @@
+[1.194s] Invoking command in '/home/fizzer/ros2_ws/src/security': PYTHONPATH=/home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/security build --build-base /home/fizzer/ros2_ws/build/security/build install --prefix /home/fizzer/ros2_ws/install/security --record /home/fizzer/ros2_ws/build/security/install.log --single-version-externally-managed
+[1.706s] running egg_info
+[1.707s] writing ../../build/security/security.egg-info/PKG-INFO
+[1.708s] writing dependency_links to ../../build/security/security.egg-info/dependency_links.txt
+[1.709s] writing entry points to ../../build/security/security.egg-info/entry_points.txt
+[1.709s] writing requirements to ../../build/security/security.egg-info/requires.txt
+[1.710s] writing top-level names to ../../build/security/security.egg-info/top_level.txt
+[1.787s] reading manifest file '../../build/security/security.egg-info/SOURCES.txt'
+[1.789s] writing manifest file '../../build/security/security.egg-info/SOURCES.txt'
+[1.789s] running build
+[1.789s] running build_py
+[1.790s] running install
+[1.792s] running install_lib
+[1.795s] running install_data
+[1.796s] running install_egg_info
+[1.799s] removing '/home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security-0.0.0-py3.8.egg-info' (and everything under it)
+[1.800s] Copying ../../build/security/security.egg-info to /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security-0.0.0-py3.8.egg-info
+[1.802s] running install_scripts
+[1.839s] Installing pub script to /home/fizzer/ros2_ws/install/security/lib/security
+[1.840s] Installing sub script to /home/fizzer/ros2_ws/install/security/lib/security
+[1.840s] writing list of installed files to '/home/fizzer/ros2_ws/build/security/install.log'
+[1.948s] Invoked command in '/home/fizzer/ros2_ws/src/security' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/security build --build-base /home/fizzer/ros2_ws/build/security/build install --prefix /home/fizzer/ros2_ws/install/security --record /home/fizzer/ros2_ws/build/security/install.log --single-version-externally-managed

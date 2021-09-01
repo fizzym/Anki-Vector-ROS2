@@ -1,0 +1,366 @@
+[0.369s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.370s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8495a89940>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8495a89940>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8495a89eb0>)
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.377s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fizzer/ros2_ws/src'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(cameraTests) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'cameraTests' with type 'ros.ament_python' and name 'cameraTests'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(keyDrive) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'keyDrive' with type 'ros.ament_python' and name 'keyDrive'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(my_package) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'my_package' with type 'ros.ament_python' and name 'my_package'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(pkg1) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'pkg1' with type 'ros.ament_python' and name 'pkg1'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'security': Error(s) in package 'security/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 21, column 2
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extension 'python'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Python package in 'security' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(security) by extension 'python_setup_py'
+[0.687s] DEBUG:colcon.colcon_core.package_identification:Package 'security' with type 'python' and name 'security'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'ignore_ament_install'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extensions ['colcon_pkg']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'colcon_pkg'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extensions ['colcon_meta']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'colcon_meta'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extensions ['ros']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'ros'
+[0.689s] DEBUG:colcon.colcon_core.package_identification:Package 'test_pkg' with type 'ros.ament_python' and name 'test_pkg'
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'cmake_target' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cameraTests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'cameraTests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/ros2_ws/src/build/cameraTests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/ros2_ws/src/install/cameraTests', 'merge_install': False, 'path': '/home/fizzer/ros2_ws/src/cameraTests', 'symlink_install': False, 'test_result_base': None}
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'cmake_target' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'cmake_clean_first' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'cmake_force_configure' from command line to 'False'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'ament_cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'keyDrive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.724s] DEBUG:colcon.colcon_core.verb:Building package 'keyDrive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/ros2_ws/src/build/keyDrive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/ros2_ws/src/install/keyDrive', 'merge_install': False, 'path': '/home/fizzer/ros2_ws/src/keyDrive', 'symlink_install': False, 'test_result_base': None}
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.729s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/ros2_ws/src/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/ros2_ws/src/install/my_package', 'merge_install': False, 'path': '/home/fizzer/ros2_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'cmake_target' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'cmake_clean_first' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'cmake_force_configure' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'ament_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'pkg1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.732s] DEBUG:colcon.colcon_core.verb:Building package 'pkg1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/ros2_ws/src/build/pkg1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/ros2_ws/src/install/pkg1', 'merge_install': False, 'path': '/home/fizzer/ros2_ws/src/pkg1', 'symlink_install': False, 'test_result_base': None}
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'cmake_args' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'cmake_target' from command line to 'None'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.735s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'cmake_clean_cache' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'cmake_clean_first' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'cmake_force_configure' from command line to 'False'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'ament_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'catkin_cmake_args' from command line to 'None'
+[0.736s] Level 5:colcon.colcon_core.verb:set package 'security' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.736s] DEBUG:colcon.colcon_core.verb:Building package 'security' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/ros2_ws/src/build/security', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/ros2_ws/src/install/security', 'merge_install': False, 'path': '/home/fizzer/ros2_ws/src/security', 'symlink_install': False, 'test_result_base': None}
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.739s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.739s] DEBUG:colcon.colcon_core.verb:Building package 'test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/ros2_ws/src/build/test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/ros2_ws/src/install/test_pkg', 'merge_install': False, 'path': '/home/fizzer/ros2_ws/src/test_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.740s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.743s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fizzer/ros2_ws/src/cameraTests' with build type 'ament_python'
+[0.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('cameraTests', 'ament_prefix_path')
+[0.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/hook/ament_prefix_path.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/hook/ament_prefix_path.dsv'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/hook/ament_prefix_path.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.755s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.760s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fizzer/ros2_ws/src/keyDrive' with build type 'ament_python'
+[0.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyDrive', 'ament_prefix_path')
+[0.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/hook/ament_prefix_path.ps1'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/hook/ament_prefix_path.dsv'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/hook/ament_prefix_path.sh'
+[0.764s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.767s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.770s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fizzer/ros2_ws/src/my_package' with build type 'ament_python'
+[0.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.774s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.776s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.779s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fizzer/ros2_ws/src/pkg1' with build type 'ament_python'
+[0.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg1', 'ament_prefix_path')
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/hook/ament_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/hook/ament_prefix_path.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/hook/ament_prefix_path.sh'
+[0.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.100s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fizzer/ros2_ws/src/cameraTests'
+[1.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.104s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.394s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fizzer/ros2_ws/src/keyDrive'
+[1.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.397s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.686s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fizzer/ros2_ws/src/my_package'
+[1.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.690s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.983s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fizzer/ros2_ws/src/pkg1'
+[1.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.986s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/ros2_ws/src/cameraTests': PYTHONPATH=/home/fizzer/ros2_ws/src/install/cameraTests/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/cameraTests build --build-base /home/fizzer/ros2_ws/src/build/cameraTests/build install --prefix /home/fizzer/ros2_ws/src/install/cameraTests --record /home/fizzer/ros2_ws/src/build/cameraTests/install.log --single-version-externally-managed
+[2.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/ros2_ws/src/keyDrive': PYTHONPATH=/home/fizzer/ros2_ws/src/install/keyDrive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyDrive build --build-base /home/fizzer/ros2_ws/src/build/keyDrive/build install --prefix /home/fizzer/ros2_ws/src/install/keyDrive --record /home/fizzer/ros2_ws/src/build/keyDrive/install.log --single-version-externally-managed
+[2.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/ros2_ws/src/my_package': PYTHONPATH=/home/fizzer/ros2_ws/src/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/fizzer/ros2_ws/src/build/my_package/build install --prefix /home/fizzer/ros2_ws/src/install/my_package --record /home/fizzer/ros2_ws/src/build/my_package/install.log --single-version-externally-managed
+[2.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/ros2_ws/src/pkg1': PYTHONPATH=/home/fizzer/ros2_ws/src/install/pkg1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pkg1 build --build-base /home/fizzer/ros2_ws/src/build/pkg1/build install --prefix /home/fizzer/ros2_ws/src/install/pkg1 --record /home/fizzer/ros2_ws/src/build/pkg1/install.log --single-version-externally-managed
+[2.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/ros2_ws/src/cameraTests' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/src/install/cameraTests/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/cameraTests build --build-base /home/fizzer/ros2_ws/src/build/cameraTests/build install --prefix /home/fizzer/ros2_ws/src/install/cameraTests --record /home/fizzer/ros2_ws/src/build/cameraTests/install.log --single-version-externally-managed
+[2.703s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/cameraTests' for CMake module files
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/cameraTests' for CMake config files
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/cameraTests/lib'
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/cameraTests/bin'
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/cameraTests/lib/pkgconfig/cameraTests.pc'
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/cameraTests/lib/python3.8/site-packages'
+[2.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('cameraTests', 'pythonpath')
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/hook/pythonpath.ps1'
+[2.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/hook/pythonpath.dsv'
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/hook/pythonpath.sh'
+[2.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cameraTests)
+[2.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/package.ps1'
+[2.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/package.dsv'
+[2.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/package.sh'
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/package.bash'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/cameraTests/share/cameraTests/package.zsh'
+[2.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/ros2_ws/src/install/cameraTests/share/colcon-core/packages/cameraTests)
+[2.724s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fizzer/ros2_ws/src/security'
+[2.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.731s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/ros2_ws/src/security': PYTHONPATH=/home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/security build --build-base /home/fizzer/ros2_ws/src/build/security/build install --prefix /home/fizzer/ros2_ws/src/install/security --record /home/fizzer/ros2_ws/src/build/security/install.log --single-version-externally-managed
+[3.063s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/my_package' for CMake module files
+[3.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/src/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_package build --build-base /home/fizzer/ros2_ws/src/build/my_package/build install --prefix /home/fizzer/ros2_ws/src/install/my_package --record /home/fizzer/ros2_ws/src/build/my_package/install.log --single-version-externally-managed
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/my_package' for CMake config files
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/my_package/lib'
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/my_package/bin'
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/my_package/lib/pkgconfig/my_package.pc'
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/my_package/lib/python3.8/site-packages'
+[3.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[3.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/hook/pythonpath.ps1'
+[3.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/hook/pythonpath.dsv'
+[3.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/hook/pythonpath.sh'
+[3.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[3.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/package.ps1'
+[3.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/package.dsv'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/package.sh'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/package.bash'
+[3.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/my_package/share/my_package/package.zsh'
+[3.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/ros2_ws/src/install/my_package/share/colcon-core/packages/my_package)
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/pkg1' for CMake module files
+[3.075s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/pkg1' for CMake config files
+[3.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/ros2_ws/src/pkg1' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/src/install/pkg1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pkg1 build --build-base /home/fizzer/ros2_ws/src/build/pkg1/build install --prefix /home/fizzer/ros2_ws/src/install/pkg1 --record /home/fizzer/ros2_ws/src/build/pkg1/install.log --single-version-externally-managed
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/pkg1/lib'
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/pkg1/bin'
+[3.077s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/pkg1/lib/pkgconfig/pkg1.pc'
+[3.077s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/pkg1/lib/python3.8/site-packages'
+[3.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg1', 'pythonpath')
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/hook/pythonpath.ps1'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/hook/pythonpath.dsv'
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/hook/pythonpath.sh'
+[3.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg1)
+[3.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/package.ps1'
+[3.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/package.dsv'
+[3.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/package.sh'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/package.bash'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/pkg1/share/pkg1/package.zsh'
+[3.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/ros2_ws/src/install/pkg1/share/colcon-core/packages/pkg1)
+[3.083s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fizzer/ros2_ws/src/test_pkg' with build type 'ament_python'
+[3.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'ament_prefix_path')
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/hook/ament_prefix_path.ps1'
+[3.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/hook/ament_prefix_path.dsv'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/hook/ament_prefix_path.sh'
+[3.090s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.090s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.094s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/keyDrive' for CMake module files
+[3.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/ros2_ws/src/keyDrive' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/src/install/keyDrive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyDrive build --build-base /home/fizzer/ros2_ws/src/build/keyDrive/build install --prefix /home/fizzer/ros2_ws/src/install/keyDrive --record /home/fizzer/ros2_ws/src/build/keyDrive/install.log --single-version-externally-managed
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/keyDrive' for CMake config files
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/keyDrive/lib'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/keyDrive/bin'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/keyDrive/lib/pkgconfig/keyDrive.pc'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/keyDrive/lib/python3.8/site-packages'
+[3.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyDrive', 'pythonpath')
+[3.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/hook/pythonpath.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/hook/pythonpath.dsv'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/hook/pythonpath.sh'
+[3.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyDrive)
+[3.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/package.ps1'
+[3.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/package.dsv'
+[3.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/package.sh'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/package.bash'
+[3.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/keyDrive/share/keyDrive/package.zsh'
+[3.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/ros2_ws/src/install/keyDrive/share/colcon-core/packages/keyDrive)
+[3.460s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fizzer/ros2_ws/src/test_pkg'
+[3.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.465s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/ros2_ws/src/test_pkg': PYTHONPATH=/home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_pkg build --build-base /home/fizzer/ros2_ws/src/build/test_pkg/build install --prefix /home/fizzer/ros2_ws/src/install/test_pkg --record /home/fizzer/ros2_ws/src/build/test_pkg/install.log --single-version-externally-managed
+[3.517s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/security' for CMake module files
+[3.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/ros2_ws/src/security' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/security build --build-base /home/fizzer/ros2_ws/src/build/security/build install --prefix /home/fizzer/ros2_ws/src/install/security --record /home/fizzer/ros2_ws/src/build/security/install.log --single-version-externally-managed
+[3.519s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/security' for CMake config files
+[3.520s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/security/lib'
+[3.520s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/security/bin'
+[3.520s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/security/lib/pkgconfig/security.pc'
+[3.520s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/security/lib/python3.8/site-packages'
+[3.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('security', 'pythonpath')
+[3.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/security/share/security/hook/pythonpath.ps1'
+[3.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/security/share/security/hook/pythonpath.dsv'
+[3.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/security/share/security/hook/pythonpath.sh'
+[3.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(security)
+[3.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/security/share/security/package.ps1'
+[3.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/ros2_ws/src/install/security/share/security/package.dsv'
+[3.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/security/share/security/package.sh'
+[3.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/security/share/security/package.bash'
+[3.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/security/share/security/package.zsh'
+[3.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/ros2_ws/src/install/security/share/colcon-core/packages/security)
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/test_pkg' for CMake module files
+[3.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/ros2_ws/src/test_pkg' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_pkg build --build-base /home/fizzer/ros2_ws/src/build/test_pkg/build install --prefix /home/fizzer/ros2_ws/src/install/test_pkg --record /home/fizzer/ros2_ws/src/build/test_pkg/install.log --single-version-externally-managed
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/test_pkg' for CMake config files
+[3.874s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/test_pkg/lib'
+[3.874s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/test_pkg/bin'
+[3.874s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[3.874s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/ros2_ws/src/install/test_pkg/lib/python3.8/site-packages'
+[3.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'pythonpath')
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/hook/pythonpath.ps1'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/hook/pythonpath.dsv'
+[3.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/hook/pythonpath.sh'
+[3.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[3.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/package.ps1'
+[3.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/package.dsv'
+[3.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/package.sh'
+[3.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/package.bash'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/ros2_ws/src/install/test_pkg/share/test_pkg/package.zsh'
+[3.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/ros2_ws/src/install/test_pkg/share/colcon-core/packages/test_pkg)
+[3.882s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.884s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.884s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.894s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.900s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fizzer/ros2_ws/src/install/local_setup.ps1'
+[3.904s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fizzer/ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fizzer/ros2_ws/src/install/setup.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fizzer/ros2_ws/src/install/local_setup.sh'
+[3.914s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fizzer/ros2_ws/src/install/_local_setup_util_sh.py'
+[3.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fizzer/ros2_ws/src/install/setup.sh'
+[3.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fizzer/ros2_ws/src/install/local_setup.bash'
+[3.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fizzer/ros2_ws/src/install/setup.bash'
+[3.925s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fizzer/ros2_ws/src/install/local_setup.zsh'
+[3.926s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fizzer/ros2_ws/src/install/setup.zsh'

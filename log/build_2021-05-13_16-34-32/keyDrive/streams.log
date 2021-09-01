@@ -1,0 +1,41 @@
+[0.483s] Invoking command in '/home/fizzer/ros2_ws/src/keyDrive': PYTHONPATH=/home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyDrive build --build-base /home/fizzer/ros2_ws/build/keyDrive/build install --prefix /home/fizzer/ros2_ws/install/keyDrive --record /home/fizzer/ros2_ws/build/keyDrive/install.log --single-version-externally-managed
+[0.877s] running egg_info
+[0.878s] creating ../../build/keyDrive/keyDrive.egg-info
+[0.878s] writing ../../build/keyDrive/keyDrive.egg-info/PKG-INFO
+[0.879s] writing dependency_links to ../../build/keyDrive/keyDrive.egg-info/dependency_links.txt
+[0.879s] writing entry points to ../../build/keyDrive/keyDrive.egg-info/entry_points.txt
+[0.880s] writing requirements to ../../build/keyDrive/keyDrive.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/keyDrive/keyDrive.egg-info/top_level.txt
+[0.912s] writing manifest file '../../build/keyDrive/keyDrive.egg-info/SOURCES.txt'
+[1.023s] reading manifest file '../../build/keyDrive/keyDrive.egg-info/SOURCES.txt'
+[1.024s] writing manifest file '../../build/keyDrive/keyDrive.egg-info/SOURCES.txt'
+[1.025s] running build
+[1.025s] running build_py
+[1.025s] creating /home/fizzer/ros2_ws/build/keyDrive/build
+[1.025s] creating /home/fizzer/ros2_ws/build/keyDrive/build/lib
+[1.026s] creating /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+[1.026s] copying keyDrive/Velocity_Publisher.py -> /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+[1.026s] copying keyDrive/__init__.py -> /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+[1.026s] copying keyDrive/Velocity_Subscribe_Drive.py -> /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive
+[1.026s] running install
+[1.045s] running install_lib
+[1.047s] creating /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+[1.047s] copying /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive/Velocity_Publisher.py -> /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+[1.047s] copying /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive/__init__.py -> /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+[1.048s] copying /home/fizzer/ros2_ws/build/keyDrive/build/lib/keyDrive/Velocity_Subscribe_Drive.py -> /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive
+[1.048s] byte-compiling /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive/Velocity_Publisher.py to Velocity_Publisher.cpython-38.pyc
+[1.050s] byte-compiling /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive/__init__.py to __init__.cpython-38.pyc
+[1.051s] byte-compiling /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive/Velocity_Subscribe_Drive.py to Velocity_Subscribe_Drive.cpython-38.pyc
+[1.051s] running install_data
+[1.064s] creating /home/fizzer/ros2_ws/install/keyDrive/share/ament_index
+[1.065s] creating /home/fizzer/ros2_ws/install/keyDrive/share/ament_index/resource_index
+[1.065s] creating /home/fizzer/ros2_ws/install/keyDrive/share/ament_index/resource_index/packages
+[1.065s] copying resource/keyDrive -> /home/fizzer/ros2_ws/install/keyDrive/share/ament_index/resource_index/packages
+[1.065s] copying package.xml -> /home/fizzer/ros2_ws/install/keyDrive/share/keyDrive
+[1.065s] running install_egg_info
+[1.067s] Copying ../../build/keyDrive/keyDrive.egg-info to /home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages/keyDrive-0.0.0-py3.8.egg-info
+[1.069s] running install_scripts
+[1.092s] Installing node1 script to /home/fizzer/ros2_ws/install/keyDrive/lib/keyDrive
+[1.092s] Installing node2 script to /home/fizzer/ros2_ws/install/keyDrive/lib/keyDrive
+[1.093s] writing list of installed files to '/home/fizzer/ros2_ws/build/keyDrive/install.log'
+[1.122s] Invoked command in '/home/fizzer/ros2_ws/src/keyDrive' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/keyDrive/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyDrive build --build-base /home/fizzer/ros2_ws/build/keyDrive/build install --prefix /home/fizzer/ros2_ws/install/keyDrive --record /home/fizzer/ros2_ws/build/keyDrive/install.log --single-version-externally-managed

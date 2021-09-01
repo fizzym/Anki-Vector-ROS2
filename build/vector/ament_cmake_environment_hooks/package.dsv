@@ -1,0 +1,4 @@
+source;share/vector/local_setup.bash
+source;share/vector/local_setup.dsv
+source;share/vector/local_setup.sh
+source;share/vector/local_setup.zsh

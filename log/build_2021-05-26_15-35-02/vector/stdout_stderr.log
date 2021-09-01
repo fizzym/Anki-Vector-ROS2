@@ -1,0 +1,227 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fizzer/ros2_ws/build/vector
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target vector__cpp[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target vector__cpp
+[35m[1mScanning dependencies of target vector__rosidl_generator_c[0m
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [32mBuilding C object CMakeFiles/vector__rosidl_generator_c.dir/rosidl_generator_c/vector/srv/detail/vector_connect__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libvector__rosidl_generator_c.so[0m
+[ 22%] Built target vector__rosidl_generator_c
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_cpp[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vector/srv/vector_connect__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_introspection_cpp[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vector/srv/detail/vector_connect__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_introspection_c[0m
+[ 35%] [32mBuilding C object CMakeFiles/vector__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vector/srv/detail/vector_connect__type_support.c.o[0m
+[ 38%] [32m[1mLinking C shared library libvector__rosidl_typesupport_introspection_c.so[0m
+[ 38%] Built target vector__rosidl_typesupport_introspection_c
+[ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vector/srv/detail/dds_fastrtps/vector_connect__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_c[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_c.dir/rosidl_typesupport_c/vector/srv/vector_connect__type_support.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libvector__rosidl_typesupport_c.so[0m
+[ 51%] Built target vector__rosidl_typesupport_c
+[ 54%] [32m[1mLinking CXX shared library libvector__rosidl_typesupport_cpp.so[0m
+[ 58%] [32m[1mLinking CXX shared library libvector__rosidl_typesupport_introspection_cpp.so[0m
+[ 58%] Built target vector__rosidl_typesupport_cpp
+[ 58%] Built target vector__rosidl_typesupport_introspection_cpp
+[ 61%] [32m[1mLinking CXX shared library libvector__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 61%] Built target vector__rosidl_typesupport_fastrtps_cpp
+[ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_fastrtps_c[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/vector__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vector/srv/detail/vector_connect__type_support_c.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libvector__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target vector__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target vector[0m
+[ 70%] Built target vector
+[35m[1mScanning dependencies of target vector__py[0m
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target vector__py
+[35m[1mScanning dependencies of target vector__python[0m
+[ 77%] [32mBuilding C object CMakeFiles/vector__python.dir/rosidl_generator_py/vector/srv/_vector_connect_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/vector/libvector__python.so[0m
+[ 80%] Built target vector__python
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target vector__rosidl_typesupport_c__pyext[0m
+[ 83%] [32mBuilding C object CMakeFiles/vector__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vector/_vector_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/vector__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vector/_vector_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/vector__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vector/_vector_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/vector/vector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 93%] Built target vector__rosidl_typesupport_c__pyext
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/vector/vector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/vector/vector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target vector__rosidl_typesupport_introspection_c__pyext
+[100%] Built target vector__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/pythonpath.sh
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/pythonpath.dsv
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_interface.py
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/client_test.py
+Listing '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector'...
+Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py'...
+Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/client_test.py'...
+Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_interface.py'...
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/vector/vector_interface.py
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/vector/client_test.py
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/rosidl_interfaces/vector
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__functions.h
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__struct.h
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__functions.c
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.h
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_connect.h
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/msg
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/library_path.sh
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/library_path.dsv
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_generator_c.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/dds_fastrtps
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.c
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/msg
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_c.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__traits.hpp
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__builder.hpp
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__struct.hpp
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/vector_connect.hpp
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv
+-- Up-to-date: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/fizzer/ros2_ws/install/vector/include/vector/srv/detail/vector_connect__type_support.cpp
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py
+Compiling '/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/__init__.py'...
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_connect_s.c
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/_vector_connect.py
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/srv/__init__.py
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/python3.8/site-packages/vector/vector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/fizzer/ros2_ws/install/vector/lib/libvector__python.so
+-- Set runtime path of "/home/fizzer/ros2_ws/install/vector/lib/libvector__python.so" to ""
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect.idl
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect.srv
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect_Request.msg
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/srv/VectorConnect_Response.msg
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/package_run_dependencies/vector
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/parent_prefix_path/vector
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/ament_prefix_path.sh
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/ament_prefix_path.dsv
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/path.sh
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/environment/path.dsv
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.bash
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.sh
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.zsh
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/local_setup.dsv
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/package.dsv
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/ament_index/resource_index/packages/vector
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cExport.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cExport.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_generator_cppExport.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vector__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vectorConfig.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/cmake/vectorConfig-version.cmake
+-- Installing: /home/fizzer/ros2_ws/install/vector/share/vector/package.xml

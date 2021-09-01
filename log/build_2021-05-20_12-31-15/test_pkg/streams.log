@@ -1,0 +1,20 @@
+[0.370s] Invoking command in '/home/fizzer/ros2_ws/src/test_pkg': PYTHONPATH=/home/fizzer/ros2_ws/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/fizzer/ros2_ws/build/test_pkg/build install --prefix /home/fizzer/ros2_ws/install/test_pkg --record /home/fizzer/ros2_ws/build/test_pkg/install.log --single-version-externally-managed
+[0.639s] running egg_info
+[0.640s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[0.640s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[0.641s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[0.641s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[0.641s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[0.682s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.683s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.684s] running build
+[0.684s] running build_py
+[0.684s] running install
+[0.685s] running install_lib
+[0.687s] running install_data
+[0.688s] running install_egg_info
+[0.690s] removing '/home/fizzer/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.690s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/fizzer/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg-0.0.0-py3.8.egg-info
+[0.692s] running install_scripts
+[0.717s] writing list of installed files to '/home/fizzer/ros2_ws/build/test_pkg/install.log'
+[0.747s] Invoked command in '/home/fizzer/ros2_ws/src/test_pkg' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/fizzer/ros2_ws/build/test_pkg/build install --prefix /home/fizzer/ros2_ws/install/test_pkg --record /home/fizzer/ros2_ws/build/test_pkg/install.log --single-version-externally-managed

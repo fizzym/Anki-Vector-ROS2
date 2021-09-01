@@ -1,0 +1,5 @@
+[console_scripts]
+node1 = keyDrive.Velocity_Publisher:main
+node2 = keyDrive.Velocity_Subscribe_Drive:main
+node3 = keyDrive.Vel_Sub_Drive_2:main
+

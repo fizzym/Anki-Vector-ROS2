@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/security/security.egg-info
+writing ../../build/security/security.egg-info/PKG-INFO
+writing dependency_links to ../../build/security/security.egg-info/dependency_links.txt
+writing entry points to ../../build/security/security.egg-info/entry_points.txt
+writing requirements to ../../build/security/security.egg-info/requires.txt
+writing top-level names to ../../build/security/security.egg-info/top_level.txt
+writing manifest file '../../build/security/security.egg-info/SOURCES.txt'
+reading manifest file '../../build/security/security.egg-info/SOURCES.txt'
+writing manifest file '../../build/security/security.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fizzer/ros2_ws/build/security/build
+creating /home/fizzer/ros2_ws/build/security/build/lib
+creating /home/fizzer/ros2_ws/build/security/build/lib/security
+copying security/__init__.py -> /home/fizzer/ros2_ws/build/security/build/lib/security
+copying security/sub.py -> /home/fizzer/ros2_ws/build/security/build/lib/security
+copying security/pub.py -> /home/fizzer/ros2_ws/build/security/build/lib/security
+running install
+running install_lib
+creating /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security
+copying /home/fizzer/ros2_ws/build/security/build/lib/security/__init__.py -> /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security
+copying /home/fizzer/ros2_ws/build/security/build/lib/security/sub.py -> /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security
+copying /home/fizzer/ros2_ws/build/security/build/lib/security/pub.py -> /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security
+byte-compiling /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security/sub.py to sub.cpython-38.pyc
+byte-compiling /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security/pub.py to pub.cpython-38.pyc
+running install_data
+creating /home/fizzer/ros2_ws/install/security/share
+creating /home/fizzer/ros2_ws/install/security/share/ament_index
+creating /home/fizzer/ros2_ws/install/security/share/ament_index/resource_index
+creating /home/fizzer/ros2_ws/install/security/share/ament_index/resource_index/packages
+copying resource/security -> /home/fizzer/ros2_ws/install/security/share/ament_index/resource_index/packages
+creating /home/fizzer/ros2_ws/install/security/share/security
+copying package.xml -> /home/fizzer/ros2_ws/install/security/share/security
+running install_egg_info
+Copying ../../build/security/security.egg-info to /home/fizzer/ros2_ws/install/security/lib/python3.8/site-packages/security-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/fizzer/ros2_ws/install/security/lib/security
+Installing talker script to /home/fizzer/ros2_ws/install/security/lib/security
+writing list of installed files to '/home/fizzer/ros2_ws/build/security/install.log'

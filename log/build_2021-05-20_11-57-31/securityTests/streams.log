@@ -1,0 +1,22 @@
+[0.305s] Invoking command in '/home/fizzer/ros2_ws/src/securityTests': PYTHONPATH=/home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/securityTests build --build-base /home/fizzer/ros2_ws/build/securityTests/build install --prefix /home/fizzer/ros2_ws/install/securityTests --record /home/fizzer/ros2_ws/build/securityTests/install.log --single-version-externally-managed
+[0.574s] running egg_info
+[0.575s] writing ../../build/securityTests/securityTests.egg-info/PKG-INFO
+[0.575s] writing dependency_links to ../../build/securityTests/securityTests.egg-info/dependency_links.txt
+[0.575s] writing entry points to ../../build/securityTests/securityTests.egg-info/entry_points.txt
+[0.575s] writing requirements to ../../build/securityTests/securityTests.egg-info/requires.txt
+[0.575s] writing top-level names to ../../build/securityTests/securityTests.egg-info/top_level.txt
+[0.619s] reading manifest file '../../build/securityTests/securityTests.egg-info/SOURCES.txt'
+[0.620s] writing manifest file '../../build/securityTests/securityTests.egg-info/SOURCES.txt'
+[0.620s] running build
+[0.620s] running build_py
+[0.621s] running install
+[0.622s] running install_lib
+[0.624s] running install_data
+[0.625s] running install_egg_info
+[0.627s] removing '/home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests-0.0.0-py3.8.egg-info' (and everything under it)
+[0.627s] Copying ../../build/securityTests/securityTests.egg-info to /home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages/securityTests-0.0.0-py3.8.egg-info
+[0.628s] running install_scripts
+[0.649s] Installing listener script to /home/fizzer/ros2_ws/install/securityTests/lib/securityTests
+[0.650s] Installing talker script to /home/fizzer/ros2_ws/install/securityTests/lib/securityTests
+[0.650s] writing list of installed files to '/home/fizzer/ros2_ws/build/securityTests/install.log'
+[0.678s] Invoked command in '/home/fizzer/ros2_ws/src/securityTests' returned '0': PYTHONPATH=/home/fizzer/ros2_ws/install/securityTests/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/securityTests build --build-base /home/fizzer/ros2_ws/build/securityTests/build install --prefix /home/fizzer/ros2_ws/install/securityTests --record /home/fizzer/ros2_ws/build/securityTests/install.log --single-version-externally-managed
